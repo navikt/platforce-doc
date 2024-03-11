@@ -5,5 +5,8 @@ all: install local
 install:
 	poetry install
 
-local:
+local: copyreadme
 	poetry run mkdocs serve
+
+copyreadme:
+	python main.py

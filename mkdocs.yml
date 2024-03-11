@@ -1,8 +1,84 @@
 site_name: Platforce Docs
+site_description: Documentation for Platforce
+site_author: NAV Team Platforce
 site_url: https://platforce.github.io/docs/
+repo_url: https://github.com/navikt/platforce-doc
+edit_uri: edit/main/docs/
+copyright: Made with ❤️ by NAV
+
 theme:
   name: material
-#nav:
-#  - Home: index.md
-#  - About: about.md
-#  - Contact: contact.md
+  features:
+    - search.suggest
+    - search.share
+    - search.highlight # Experimental
+    - content.action.edit
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default # light-mode
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate # dark-mode
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  version: 0.1.0
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nav
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/nav
+
+markdown_extensions:
+  toc:
+    permalink: true
+
+plugins:
+  - search:
+      lang: en
+  - awesome-pages
+  - git-revision-date-localized
+  
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      auto_title: true
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+
+
+nav:
+  - Home: index.md
+  - ...
+  - Project Readme: project-readme.md
