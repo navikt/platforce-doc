@@ -11,7 +11,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://platforce.github.io/docs/Reference/naming-convention/</loc>
+         <loc>https://platforce.github.io/docs/Reference/naming-conventions/casing-styles/</loc>
+         <lastmod>2024-03-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/Reference/naming-conventions/naming-convention/</loc>
          <lastmod>2024-03-11</lastmod>
          <changefreq>daily</changefreq>
     </url>
