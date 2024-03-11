@@ -50,6 +50,7 @@ jobs:
           publish_dir: ./site
 
   deploy:
+    needs: build
     permissions:
       contents: read
       pages: write
