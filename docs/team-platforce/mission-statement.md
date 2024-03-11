@@ -39,5 +39,6 @@ At NAV, our Salesforce Platform Team is committed to enabling the success of our
 - Our commitment to learning extends to Product Teams, fostering a culture of continuous improvement.
 
 ## Our Commitment
+
 We are dedicated to supporting Product Teams, unlocking the full potential of Salesforce, and contributing to the overall success of NAV. Together, we create impactful solutions that drive innovation and growth.
 Our team collaborates with Product Managers, Developers, and Designers to empower them in identifying opportunities for process automation, efficiency gains, and innovative solutions within their specific contexts.
