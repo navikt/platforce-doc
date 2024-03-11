@@ -12,10 +12,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  build-and-gh-page-deploy:
     permissions:
       contents: write
-      pages: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
