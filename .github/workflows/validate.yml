@@ -1,11 +1,10 @@
-name: Build and Deploy to GitHub Pages
+name: Build and Validate
 
 on:
-  push:
+  pull_request:
+    types: [opened, synchronize]
     branches:
       - main
-
-  workflow_dispatch:
 
 concurrency:
   group: "pages"
@@ -32,5 +31,5 @@ jobs:
       - name: Install the project dependencies
         run: poetry install
 
-      - name: Deploy to GitHub Pages
-        run: poetry run mkdocs gh-deploy --force
+      - name: Build
+        run: poetry run mkdocs build --verbose
