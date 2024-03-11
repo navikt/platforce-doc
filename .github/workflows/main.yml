@@ -1,0 +1,41 @@
+name: Build and publish doc
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install poetry
+        uses: abatilo/actions-poetry@v2
+
+      - name: Run pipx
+        uses: CfirTsabari/actions-pipx@v1
+      
+      - name: Define a cache for the virtual environment based on the dependencies lock file
+      - uses: actions/cache@v3
+       with:
+         path: ./.venv
+         key: venv-${{ hashFiles('poetry.lock') }}
+      - name: Install the project dependencies
+        run: poetry install
+
+      - name: Build
+        run: mkdocs build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
