@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Set up Python
-      - uses: actions/setup-python@v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -22,12 +22,13 @@ jobs:
 
       - name: Run pipx
         uses: CfirTsabari/actions-pipx@v1
-      
+
       - name: Define a cache for the virtual environment based on the dependencies lock file
-      - uses: actions/cache@v3
-       with:
-         path: ./.venv
-         key: venv-${{ hashFiles('poetry.lock') }}
+        uses: actions/cache@v3
+        with:
+          path: ./.venv
+          key: venv-${{ hashFiles('poetry.lock') }}
+
       - name: Install the project dependencies
         run: poetry install
 
