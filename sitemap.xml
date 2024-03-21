@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://platforce.github.io/docs/Reference/</loc>
+         <lastmod>2024-03-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://platforce.github.io/docs/Reference/naming-conventions/casing-styles/</loc>
          <lastmod>2024-03-21</lastmod>
          <changefreq>daily</changefreq>
@@ -27,6 +32,16 @@
     </url>
     <url>
          <loc>https://platforce.github.io/docs/Reference/naming-conventions/introduction/</loc>
+         <lastmod>2024-03-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/explanation/</loc>
+         <lastmod>2024-03-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/how-to-guides/</loc>
          <lastmod>2024-03-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -87,6 +102,11 @@
     </url>
     <url>
          <loc>https://platforce.github.io/docs/team-platforce/mission-statement/</loc>
+         <lastmod>2024-03-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/tutorial/</loc>
          <lastmod>2024-03-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
