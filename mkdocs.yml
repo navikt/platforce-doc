@@ -39,15 +39,27 @@ theme:
 
 extra:
   version: 0.1.0
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/nav
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/nav
-
-markdown_extensions:
-  toc:
-    permalink: true
+  analytics:
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="https://github.com/navikt/platforce-doc/issues/new">feedback form</a> or contact us on Slack</a>.
 
 plugins:
   - search:
@@ -57,7 +69,10 @@ plugins:
       enable_creation_date: true
       type: timeago
       strict: false
+      
 markdown_extensions:
+  - toc:
+      permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -83,15 +98,9 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - admonition
   - attr_list
   - md_in_html
   - def_list
   - footnotes
-
-
-nav:
-  - Home: index.md
-  - ...
-  - Project Readme: project-readme.md
