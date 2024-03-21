@@ -3,10 +3,9 @@ hide:
   - feedback
   - footer
 ---
-
-<style> // hides the edit button on the start-page
-  .md-typeset h1,
-  .md-content__button {
+<!-- hides the edit button on the start-page -->
+<style> 
+  article.md-content__inner.md-typeset > a.md-content__button.md-icon {
     display: none;
   }
 </style>
@@ -29,7 +28,7 @@ hide:
 
     Learning-oriented lessons that take you through a series of steps to complete a project. Most useful when you want to get started with Platforce (Salesforce platform) development in NAV.
 
-    [:octicons-arrow-right-24: Tutorials](tutorial/index.md)
+    [:octicons-arrow-right-24: Tutorials](tutorial/index.md "Will navigate you to the Tutorials section!")
 
 - :dart: **How-to guides**
 
@@ -37,7 +36,7 @@ hide:
 
     Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.
 
-    [:octicons-arrow-right-24: How-to guides](how-to-guides/index.md)
+    [:octicons-arrow-right-24: How-to guides](how-to-guides/index.md "Will navigate you to the How-to guides section!")
 
 - :bulb: **Explanation**
 
@@ -45,7 +44,7 @@ hide:
 
     Big-picture explanations of higher-level concepts. Most useful when you want to understand how Platforce (Salesforce platform) in NAV works.
 
-    [:octicons-arrow-right-24: Explanations](explanation/index.md)
+    [:octicons-arrow-right-24: Explanations](explanation/index.md "Will navigate you to the Explanation section!")
 
 - :computer: **Reference**
 
@@ -53,6 +52,6 @@ hide:
 
     Reference documentation for the Platforce (Salesforce platform). Most useful when you need to look up details about a specific feature.
 
-    [:octicons-arrow-right-24: Reference](reference/index.md)
+    [:octicons-arrow-right-24: Reference](reference/index.md "Will navigate you to the Reference section!")
 
 </div>

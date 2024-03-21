@@ -1,21 +1,30 @@
+# Project information
 site_name: Platforce Docs
 site_description: Documentation for Platforce
 site_author: NAV Team Platforce
 site_url: https://platforce.github.io/docs/
+
+# Repository
+repo_name: navikt/platforce-doc
 repo_url: https://github.com/navikt/platforce-doc
 edit_uri: edit/main/docs/
-copyright: Made with ❤️ by NAV - Copyright (c) 2024 NAV
 
+# Copyright
+copyright: Copyright &copy; 2024 NAV
+
+# Configuration
 theme:
   name: material
+  custom_dir: material/overrides
   features:
     - search.suggest
     - search.share
-    - search.highlight # Experimental
+    - search.highlight
     - content.action.edit
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
+    - content.tooltips
     - navigation.instant
     - navigation.instant.progress
     - navigation.indexes
@@ -23,8 +32,6 @@ theme:
     - navigation.footer
     - navigation.path
     - toc.follow
-  icon:
-    repo: fontawesome/brands/github
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default # light-mode
@@ -36,16 +43,30 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
 
+# Plugins
+plugins:
+  - search:
+      lang: en
+  - awesome-pages
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+      strict: false
+
+# Additional configuration
 extra:
-  version: 0.1.0
-  generator: false
+  generator: true
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/nav
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/nav
   analytics:
+    provider: custom
+    property: foobar
     feedback:
       title: Was this page helpful?
       ratings:
@@ -67,21 +88,19 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
-  cookies:
-      analytics: Test
+    cookies:
+      analytics: Amplitude
 
+# Additional CSS
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/uu.css
+
+# Additional JavaScript
 extra_javascript:
   - javascript/amplitude_events.js
 
-plugins:
-  - search:
-      lang: en
-  - awesome-pages
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-      strict: false
-      
+# Extensions
 markdown_extensions:
   - toc:
       permalink: true
