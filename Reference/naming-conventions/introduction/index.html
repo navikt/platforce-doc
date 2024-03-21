@@ -57,6 +57,8 @@
     <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
+  
+
 
     
     
@@ -1142,14 +1144,14 @@
   
 
 
-<h1 id="naming-conventions">Naming Conventions</h1>
+<h1 id="naming-conventions">Naming Conventions<a class="headerlink" href="#naming-conventions" title="Permanent link">&para;</a></h1>
 <p>Naming Conventions for Customization and Configuration in Salesforce is an important consideration when creating custom modifications and applications on the platform.</p>
 <ol>
 <li><strong>Descriptive and Specific Names:</strong> When naming custom objects, fields, or other components, choose descriptive and specific names. Avoid overly general terms like “ProductLine,” which may have different meanings depending on context.</li>
 <li><strong>Business Alignment:</strong> Opt for names that align with our organization’s terminology. For example, use “IncomeSupportProgram” instead of generic terms to ensure consistency with business processes.</li>
 </ol>
 <p>Remember, adhering to these naming conventions enhances readability and facilitates efficient management of our Salesforce environment.</p>
-<h2 id="1-language">1. Language</h2>
+<h2 id="1-language">1. Language<a class="headerlink" href="#1-language" title="Permanent link">&para;</a></h2>
 <p><strong>Configurable metadata</strong> (such as Custom Objects, Custom Fields, Process Builder, Flows, Apex, etc.) is created and named in the English language. This applies to both labels, API names, and help text. For metadata where labels are visible to the user, these must be translated to Norwegian using the <strong><a href="https://help.salesforce.com/s/articleView?id=sf.workbench_overview.htm&amp;type=5">Translation Workbench</a></strong>. There are two main reasons for this approach:</p>
 <ol>
 <li>We want to adhere to English names at the <strong>database and backend level</strong>. This enhances the flow and readability of code, especially since English is already extensively used in standard functions and external libraries.</li>
@@ -1197,7 +1199,49 @@
   </aside>
 
 
+  
 
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        Was this page helpful?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page was helpful" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81Z"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="This page could be improved" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14Z"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              Thanks for your feedback!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              Thanks for your feedback! Help us improve this page by using our <a href="https://github.com/navikt/platforce-doc/issues/new">feedback form</a> or contact us on Slack</a>.
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
 
 
                 
@@ -1268,11 +1312,6 @@
       Made with ❤️ by NAV - Copyright (c) 2024 NAV
     </div>
   
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
   
 </div>
       
