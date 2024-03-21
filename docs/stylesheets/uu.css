@@ -1,0 +1,47 @@
+.md-header-nav__source a {
+    text-decoration: none;
+  }
+  
+  [data-md-color-primary="blue-grey"] a {
+    --md-typeset-a-color: #6c9fff; /* This is a small tweak to bump the contrast on links up to 4.6 */
+  }
+  
+  .md-footer-copyright {
+    color: #ffffff;
+  }
+  
+  .md-content a {
+    text-decoration: underline;
+  }
+  
+  @media screen and (min-width: 60em) {
+    .md-search__inner {
+      width: 14.7rem;
+    }
+  }
+  
+  .md-search__input {
+    background-color: hsla(0, 0%, 96%, 1);
+    color: hsla(0, 0%, 0%, 0.87);
+  }
+  
+  .md-search__icon svg {
+    color: hsla(0, 0%, 0%, 0.87);
+  }
+  
+  .md-search__input:hover {
+    background-color: hsla(0, 0%, 100%, 1);
+  }
+  
+  .md-search__input::placeholder {
+    color: hsla(0, 0%, 0%, 0.87);
+  }
+  
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__input {
+    color: hsla(0, 0%, 0%, 0.87);
+    background-color: hsla(0, 0%, 100%, 1);
+  }
+  
+  ::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
