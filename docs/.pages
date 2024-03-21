@@ -1,4 +1,5 @@
 nav:
+  - Home: index.md
   - ...
   - team-platforce
-  - project-readme.md
+  - Project Readme: project-readme.md
