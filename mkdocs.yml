@@ -4,7 +4,7 @@ site_author: NAV Team Platforce
 site_url: https://platforce.github.io/docs/
 repo_url: https://github.com/navikt/platforce-doc
 edit_uri: edit/main/docs/
-copyright: Made with ❤️ by NAV
+copyright: Made with ❤️ by NAV - Copyright (c) 2024 NAV
 
 theme:
   name: material
@@ -16,6 +16,13 @@ theme:
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+    - toc.follow
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -46,8 +53,10 @@ plugins:
   - search:
       lang: en
   - awesome-pages
-  - git-revision-date-localized
-  
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+      strict: false
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -71,6 +80,10 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - admonition
   - attr_list
   - md_in_html
