@@ -11,31 +11,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://platforce.github.io/docs/Reference/</loc>
-         <lastmod>2024-03-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://platforce.github.io/docs/Reference/naming-conventions/</loc>
-         <lastmod>2024-03-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://platforce.github.io/docs/Reference/naming-conventions/casing-styles/</loc>
-         <lastmod>2024-03-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://platforce.github.io/docs/Reference/naming-conventions/custom-fields/</loc>
-         <lastmod>2024-03-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://platforce.github.io/docs/Reference/naming-conventions/custom-objects/</loc>
-         <lastmod>2024-03-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://platforce.github.io/docs/explanation/</loc>
          <lastmod>2024-03-22</lastmod>
          <changefreq>daily</changefreq>
@@ -87,6 +62,31 @@
     </url>
     <url>
          <loc>https://platforce.github.io/docs/how-to-guides/dev-environment/install-vscode/</loc>
+         <lastmod>2024-03-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/referen/</loc>
+         <lastmod>2024-03-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/referen/naming-conventions/</loc>
+         <lastmod>2024-03-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/referen/naming-conventions/casing-styles/</loc>
+         <lastmod>2024-03-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/referen/naming-conventions/custom-fields/</loc>
+         <lastmod>2024-03-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/referen/naming-conventions/custom-objects/</loc>
          <lastmod>2024-03-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
