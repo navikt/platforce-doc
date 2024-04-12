@@ -2,9 +2,19 @@
 
 ## Rules for Naming
 
-- **Object Label:** Singular, Pascal Case
-- **Object Plural Label:** Plural, Pascal Case
-- **Object Name (API Name):** Singular, Pascal Case (without underscores beyond the mandatory “__c”)
+### Object Label
+
+Singular, [Pascal Case](../casing-styles/#pascal-case)
+
+### Object Plural Label
+
+Plural, [Pascal Case](../casing-styles/#pascal-case)
+
+### Object Name (API Name)
+
+Singular, Pascal Case (without underscores beyond the mandatory “__c”)
+
+## Comments
 
 When naming custom objects within Salesforce, adhere to the following rules to ensure clarity and consistency:
 
@@ -41,19 +51,21 @@ When naming custom objects within Salesforce, consider the following exceptions 
 
 Remember, adhering to these exceptions ensures a balance between readability and precision in your naming conventions.
 
-## Demonstrative Example
+## Wrong Examples
 
 The following are examples of custom object naming that should *not* be used 
 
-|Object Name (API) | Reason |
+| Name (API) | Reason |
 |-------------|:--------|
 |```CustAsset```| Abbreviations have made this object name hard to understand 
 |```Orders``` | Object names should always be singular. 
 |```Order_Item``` | Object names should not have underscores. 
 
+## Good Examples
+
 The following are examples of the naming convention that will be used:
 
-|Object Name (API) | Reason |
+| Name (API) | Reason |
 |-------------|:--------|
 |```CustomerAsset``` | Removing ambiguity from the name will improve readability and maintainability 
 |```Order``` |  Making object names singular will ensure a standard naming convention across all objects. 
@@ -61,7 +73,7 @@ The following are examples of the naming convention that will be used:
 
 The following are examples shows valid naming conventions for Object Label, Object Plural Label and Object Name (API):
 
-| Object Label | Object Plural Label | Object Name (API) |
+| Label | Plural Label | Name (API) |
 |:-------------|:-------------|:-------------|
 |Shipping Invoice | Shipping Invoices | ```ShippingInvoice__c```
 |Inclusion Opportunity | Inclusion Opportunities | ```InclusionOpportunity__c```
