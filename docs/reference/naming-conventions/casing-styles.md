@@ -49,3 +49,11 @@ When it comes to naming conventions, various casing styles exist. Let's explore 
     - `HelloPhrase = "Hello World"`
 
 Choose the appropriate casing style based on your programming language and coding conventions! 🚀
+
+## Natural Text
+
+- Natural text refers to any form of linguistic communication that humans use in their everyday interactions. It encompasses both spoken and written language.
+- **Examples:**
+
+    - **Spoken Natural Text:** Conversations with friends, interviews, phone calls, and public speeches.
+    - **Written Natural Text:** Books, emails, social media posts, and handwritten letters.
