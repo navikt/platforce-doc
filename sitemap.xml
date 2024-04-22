@@ -86,6 +86,36 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://platforce.github.io/docs/reference/git-workflows/</loc>
+         <lastmod>2024-04-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/reference/linting/</loc>
+         <lastmod>2024-04-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/reference/linting/eslint/</loc>
+         <lastmod>2024-04-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/reference/linting/git-hooks/</loc>
+         <lastmod>2024-04-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/reference/linting/prettier/</loc>
+         <lastmod>2024-04-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://platforce.github.io/docs/reference/linting/salesforce-code-analyzer/</loc>
+         <lastmod>2024-04-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://platforce.github.io/docs/reference/logging/</loc>
          <lastmod>2024-04-22</lastmod>
          <changefreq>daily</changefreq>
