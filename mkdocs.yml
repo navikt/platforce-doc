@@ -90,6 +90,10 @@ extra:
       make our documentation better.
     cookies:
       analytics: Amplitude
+    actions:
+      - accept
+      - manage
+      - reject
 
 # Additional CSS
 extra_css:
