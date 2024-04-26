@@ -467,9 +467,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#check-access" class="md-nav__link">
+  <a href="#check-access-and-available-scratch-orgs" class="md-nav__link">
     <span class="md-ellipsis">
-      Check access
+      Check access and available scratch orgs
     </span>
   </a>
   
@@ -1805,9 +1805,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#check-access" class="md-nav__link">
+  <a href="#check-access-and-available-scratch-orgs" class="md-nav__link">
     <span class="md-ellipsis">
-      Check access
+      Check access and available scratch orgs
     </span>
   </a>
   
@@ -1858,12 +1858,14 @@
 <p><strong>Requirements:</strong><br />
 <a href="https://docs.flxbl.io/sfp/getting-started/install-sfp">Sfp CLI installed locally</a></p>
 <p>Reference: <a href="../../reference/scratchPools/">NAV Scratch Pool setup</a></p>
-<h2 id="check-access">Check access<a class="headerlink" href="#check-access" title="Permanent link">&para;</a></h2>
-<p>Check that you have access to the pools by running the <a href="https://docs.flxbl.io/sfp/command-guide/advanced/pool#flxbl-io-sfp-pool-list">list</a> command
-sfp pool list --tag dev --targetdevhubusername devhub</p>
+<p>In the examples below, replace <code>devhub</code> with the alias of your DX User.</p>
+<h2 id="check-access-and-available-scratch-orgs">Check access and available scratch orgs<a class="headerlink" href="#check-access-and-available-scratch-orgs" title="Permanent link">&para;</a></h2>
+<p>Check that you have access to the pools by running the <a href="https://docs.flxbl.io/sfp/command-guide/advanced/pool#flxbl-io-sfp-pool-list">list</a> command<br />
+<code>sfp pool list --tag dev -a --targetdevhubusername devhub</code></p>
 <p>If you do not have access <a href="../../team-platforce/contact/">contact</a> Team Platforce</p>
 <h2 id="fetch-scratch-org">Fetch Scratch org<a class="headerlink" href="#fetch-scratch-org" title="Permanent link">&para;</a></h2>
-<p>Use the <a href="https://docs.flxbl.io/sfp/command-guide/advanced/pool#flxbl-io-sfp-pool-fetch">sfp pool fetch command</a> in order to fetch a scratch org</p>
+<p>Use the <a href="https://docs.flxbl.io/sfp/command-guide/advanced/pool#flxbl-io-sfp-pool-fetch">sfp pool fetch command</a> in order to fetch a scratch org.  </p>
+<p><img alt="⚠" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.0.3/assets/svg/26a0.svg" title=":warning:" /> Remember to delete your scratch org when done, in order to free up space in the pool.</p>
 <p>Example command:<br />
 <code>sfp pool fetch --tag dev --targetdevhubusername devhub --alias myScratchOrg --setdefaultusername</code></p>
 <h2 id="delete-scratch-org">Delete Scratch org<a class="headerlink" href="#delete-scratch-org" title="Permanent link">&para;</a></h2>
@@ -1892,7 +1894,7 @@ sfp pool list --tag dev --targetdevhubusername devhub</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-04-22T11:33:07+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-04-22</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-04-26T12:28:06+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-04-26</span>
   </span>
 
     
