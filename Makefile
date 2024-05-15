@@ -9,4 +9,4 @@ local: copyreadme
 	poetry run mkdocs serve
 
 copyreadme:
-	python3 main.py
+	python main.py
