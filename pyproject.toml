@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Platforce Documentation for Developers in NAV on the Salesforce Platform"
 authors = []
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
