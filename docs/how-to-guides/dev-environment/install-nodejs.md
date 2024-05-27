@@ -30,11 +30,16 @@ How to install NodeJS on your computer.
 
 #### Additional Prerequisites
 
-=== "macOS"
-
-    - [Node Version Manager (NVM)](install-nvm.md)
+- [Node Version Manager (NVM)](install-nvm.md)
 
 #### Steps
+
+=== "Windows"
+
+    ```PowerShell
+    nvm install --lts
+    nvm use --lts
+    ```
 
 === "macOS"
 
