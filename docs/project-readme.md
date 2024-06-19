@@ -42,27 +42,35 @@ scoop install pipx
 pipx ensurepath
 ```
 
-### 2. Install Poetry
+### 2. Install Make
+
+#### On Windows
+
+```bash
+scoop install make
+```
+
+### 3. Install Poetry
 
 ```bash
 pipx install poetry
 ```
 
-### 2. Install dependencies
+### 4. Install dependencies
 
 ```bash
 make install
 ```
 
-### 3. Serve the documentation locally
+### 5. Serve the documentation locally
 
 ```bash
 make local
 ```
 
-### 4. All
+### 6. All
 
-One command to do step 2 and 3; Install dependencies and serve the documentation locally.
+One command to do step 4 and 5; Install dependencies and serve the documentation locally.
 
 ```bash
 make all
