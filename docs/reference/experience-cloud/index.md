@@ -48,5 +48,6 @@ Secondly, the user will be redirected to https://login.nav.no/oauth2 to set a co
 
 All Experience Cloud sites must have a subdomain at nav.no. The team that owns the Experience Cloud site decides on the subdomain and must request it via #platforce in Slack. Platforce will handle the DNS configuration and issue certificates for the subdomain. Ordering a new certificate typically takes about two weeks.
 
-##Permission assignment
+## Permission assignment
+
 Each Experience Cloud site might have its own permission sets and permission set groups. The permissions will be assigned in the user registration handler. Currently, the Platforce team is responsible for the permission configuration.
