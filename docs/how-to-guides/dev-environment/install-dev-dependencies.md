@@ -4,7 +4,7 @@ How to install dev dependencied in your project
 
 ## Prerequisites
 
-- [vsCode](install-vsCode.md)
+- [VS Code](install-vscode.md)
 
 ## Installation
 
