@@ -2,7 +2,6 @@
 
 Offical reference: <https://prettier.io/>
 
-
 Used locally and in CI validation jobs.
 
 ## Upgrading from 2.8.8
@@ -17,7 +16,7 @@ along with the apex plugin
 
 You will also need to add this to your `.prettierrc`:
 
-```
+```diff
  {
 +    "plugins": ["prettier-plugin-apex"],
      "trailingComma": "none",
