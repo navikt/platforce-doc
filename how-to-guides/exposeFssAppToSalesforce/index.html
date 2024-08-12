@@ -12,28 +12,28 @@
         <meta name="author" content="NAV Team Platforce">
       
       
-        <link rel="canonical" href="https://platforce.github.io/docs/reference/naming-conventions/apex_method/">
+        <link rel="canonical" href="https://platforce.github.io/docs/how-to-guides/exposeFssAppToSalesforce/">
       
       
-        <link rel="prev" href="../apex_constant/">
+        <link rel="prev" href="../">
       
       
-        <link rel="next" href="../apex_test_class/">
+        <link rel="next" href="../getOrgFromScratchPool/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
     
     
       
-        <title>Apex Methods - Platforce Docs</title>
+        <title>Exposing an App in FSS to Salesforce via Saas-Proxy - Platforce Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,13 +52,13 @@
       
     
     
-      <link rel="stylesheet" href="../../../css/timeago.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-      <link rel="stylesheet" href="../../../stylesheets/uu.css">
+      <link rel="stylesheet" href="../../stylesheets/uu.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -103,7 +103,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#apex-methods" class="md-skip">
+        <a href="#exposing-an-app-in-fss-to-salesforce-via-saas-proxy" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Platforce Docs" class="md-header__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
+    <a href="../.." title="Platforce Docs" class="md-header__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -139,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Apex Methods
+              Exposing an App in FSS to Salesforce via Saas-Proxy
             
           </span>
         </div>
@@ -259,7 +259,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Platforce Docs" class="md-nav__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
+    <a href="../.." title="Platforce Docs" class="md-nav__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -289,7 +289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -327,7 +327,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../explanation/" class="md-nav__link ">
+            <a href="../../explanation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -359,6 +359,8 @@
       
   
   
+    
+  
   
   
     
@@ -379,16 +381,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../how-to-guides/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -405,7 +407,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             How-to Guides
@@ -418,10 +420,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../how-to-guides/exposeFssAppToSalesforce/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Exposing an App in FSS to Salesforce via Saas-Proxy
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -430,6 +452,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-make-the-api-visible-to-gcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Make the API Visible to GCP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-grant-access-to-saas-proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Grant Access to Saas-Proxy
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-configure-saas-proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Configure Saas-proxy
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -442,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/getOrgFromScratchPool/" class="md-nav__link">
+      <a href="../getOrgFromScratchPool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -463,7 +532,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/postApplicationLogToSlack/" class="md-nav__link">
+      <a href="../postApplicationLogToSlack/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -528,7 +597,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../how-to-guides/dev-environment/" class="md-nav__link ">
+            <a href="../dev-environment/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -559,7 +628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-package-manager/" class="md-nav__link">
+      <a href="../dev-environment/install-package-manager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -580,7 +649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-git/" class="md-nav__link">
+      <a href="../dev-environment/install-git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -601,7 +670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-homebrew/" class="md-nav__link">
+      <a href="../dev-environment/install-homebrew/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -622,7 +691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-scoop/" class="md-nav__link">
+      <a href="../dev-environment/install-scoop/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -643,7 +712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-java/" class="md-nav__link">
+      <a href="../dev-environment/install-java/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -664,7 +733,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-nodejs/" class="md-nav__link">
+      <a href="../dev-environment/install-nodejs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -685,7 +754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-nvm/" class="md-nav__link">
+      <a href="../dev-environment/install-nvm/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -706,7 +775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-salesforce-cli/" class="md-nav__link">
+      <a href="../dev-environment/install-salesforce-cli/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -727,7 +796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-flxbl-sfp/" class="md-nav__link">
+      <a href="../dev-environment/install-flxbl-sfp/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -748,7 +817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-vscode/" class="md-nav__link">
+      <a href="../dev-environment/install-vscode/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -769,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-platforce-extension/" class="md-nav__link">
+      <a href="../dev-environment/install-platforce-extension/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -790,7 +859,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-dev-dependencies/" class="md-nav__link">
+      <a href="../dev-environment/install-dev-dependencies/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -813,7 +882,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/recommended-names-and-aliases/" class="md-nav__link">
+      <a href="../dev-environment/recommended-names-and-aliases/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -846,8 +915,6 @@
       
   
   
-    
-  
   
   
     
@@ -878,16 +945,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../../reference/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -904,7 +971,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Reference
@@ -920,7 +987,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../abbreviation/" class="md-nav__link">
+      <a href="../../reference/abbreviation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -941,7 +1008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../acronyms/" class="md-nav__link">
+      <a href="../../reference/acronyms/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -962,7 +1029,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../names-and-aliases/" class="md-nav__link">
+      <a href="../../reference/names-and-aliases/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -983,7 +1050,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../scratchPools/" class="md-nav__link">
+      <a href="../../reference/scratchPools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1022,7 +1089,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../experience-cloud/" class="md-nav__link ">
+            <a href="../../reference/experience-cloud/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1076,7 +1143,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../git-workflows/" class="md-nav__link ">
+            <a href="../../reference/git-workflows/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1138,7 +1205,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../linting/" class="md-nav__link ">
+            <a href="../../reference/linting/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1171,7 +1238,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linting/eslint/" class="md-nav__link">
+      <a href="../../reference/linting/eslint/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1192,7 +1259,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linting/git-hooks/" class="md-nav__link">
+      <a href="../../reference/linting/git-hooks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1213,7 +1280,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linting/prettier/" class="md-nav__link">
+      <a href="../../reference/linting/prettier/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1234,7 +1301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linting/salesforce-code-analyzer/" class="md-nav__link">
+      <a href="../../reference/linting/salesforce-code-analyzer/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1283,7 +1350,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../logging/" class="md-nav__link ">
+            <a href="../../reference/logging/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1316,7 +1383,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../logging/crm-plattform-alerts-app/" class="md-nav__link">
+      <a href="../../reference/logging/crm-plattform-alerts-app/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1342,8 +1409,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1380,16 +1445,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_10" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_10" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../reference/naming-conventions/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1406,7 +1471,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_10">
             <span class="md-nav__icon md-icon"></span>
             Naming Conventions
@@ -1420,7 +1485,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../casing-styles/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/casing-styles/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1443,7 +1508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_class/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_class/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1464,7 +1529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_constant/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_constant/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1482,30 +1547,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Apex Methods
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../reference/naming-conventions/apex_method/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1514,86 +1559,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#rules-for-naming" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rules for Naming
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Rules for Naming">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#capitalization" class="md-nav__link">
-    <span class="md-ellipsis">
-      Capitalization
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#name" class="md-nav__link">
-    <span class="md-ellipsis">
-      Name
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#comments" class="md-nav__link">
-    <span class="md-ellipsis">
-      Comments
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wrong-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wrong Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#good-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Good Examples
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1606,7 +1571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_test_class/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_test_class/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1627,7 +1592,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_variable/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_variable/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1648,7 +1613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../approval_process/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/approval_process/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1669,7 +1634,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../approval_process_step/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/approval_process_step/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1690,7 +1655,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../custom-fields/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/custom-fields/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1711,7 +1676,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../custom-objects/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/custom-objects/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1732,7 +1697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flow/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/flow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1753,7 +1718,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flow_elements/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/flow_elements/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1807,7 +1772,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../security/" class="md-nav__link ">
+            <a href="../../security/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1862,7 +1827,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../tutorial/" class="md-nav__link ">
+            <a href="../../tutorial/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1895,7 +1860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tutorial/quickstart-setup-linting/" class="md-nav__link">
+      <a href="../../tutorial/quickstart-setup-linting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1966,7 +1931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../team-platforce/about/" class="md-nav__link">
+      <a href="../../team-platforce/about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1987,7 +1952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../team-platforce/contact/" class="md-nav__link">
+      <a href="../../team-platforce/contact/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2008,7 +1973,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../team-platforce/mission-statement/" class="md-nav__link">
+      <a href="../../team-platforce/mission-statement/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2036,7 +2001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../project-readme/" class="md-nav__link">
+      <a href="../../project-readme/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2076,60 +2041,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rules-for-naming" class="md-nav__link">
+  <a href="#1-make-the-api-visible-to-gcp" class="md-nav__link">
     <span class="md-ellipsis">
-      Rules for Naming
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Rules for Naming">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#capitalization" class="md-nav__link">
-    <span class="md-ellipsis">
-      Capitalization
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#name" class="md-nav__link">
-    <span class="md-ellipsis">
-      Name
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#comments" class="md-nav__link">
-    <span class="md-ellipsis">
-      Comments
+      1. Make the API Visible to GCP
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#wrong-examples" class="md-nav__link">
+  <a href="#2-grant-access-to-saas-proxy" class="md-nav__link">
     <span class="md-ellipsis">
-      Wrong Examples
+      2. Grant Access to Saas-Proxy
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#good-examples" class="md-nav__link">
+  <a href="#3-configure-saas-proxy" class="md-nav__link">
     <span class="md-ellipsis">
-      Good Examples
+      3. Configure Saas-proxy
     </span>
   </a>
   
@@ -2150,7 +2082,7 @@
                   
 
   
-    <a href="https://github.com/navikt/platforce-doc/edit/main/docs/reference/naming-conventions/apex_method.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/navikt/platforce-doc/edit/main/docs/how-to-guides/exposeFssAppToSalesforce.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -2158,53 +2090,26 @@
   
 
 
-<h1 id="apex-methods">Apex Methods<a class="headerlink" href="#apex-methods" title="Permanent link">&para;</a></h1>
-<p>Naming standards for Apex Methods.</p>
-<h2 id="rules-for-naming">Rules for Naming<a class="headerlink" href="#rules-for-naming" title="Permanent link">&para;</a></h2>
-<h3 id="capitalization">Capitalization<a class="headerlink" href="#capitalization" title="Permanent link">&para;</a></h3>
-<p><a href="../casing-styles/#camel-case">camelCase</a></p>
-<h3 id="name">Name<a class="headerlink" href="#name" title="Permanent link">&para;</a></h3>
-<p><code>&lt;Short yet meaningful nouns&gt;</code></p>
-<h2 id="comments">Comments<a class="headerlink" href="#comments" title="Permanent link">&para;</a></h2>
-<p>Avoid one-letter variable names, except for temporary variables or loop variables.</p>
-<h2 id="wrong-examples">Wrong Examples<a class="headerlink" href="#wrong-examples" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th style="text-align: left;">Reason</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>parAcc</code></td>
-<td style="text-align: left;">Unclear what this represents.</td>
-</tr>
-<tr>
-<td><code>parentAccountSave</code></td>
-<td style="text-align: left;">Uses a verb.</td>
-</tr>
-<tr>
-<td><code>ParentAccount</code></td>
-<td style="text-align: left;">Starts with a capital letter.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="good-examples">Good Examples<a class="headerlink" href="#good-examples" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th style="text-align: left;">Reason</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>parentAccount</code></td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
+<h1 id="exposing-an-app-in-fss-to-salesforce-via-saas-proxy">Exposing an App in FSS to Salesforce via Saas-Proxy<a class="headerlink" href="#exposing-an-app-in-fss-to-salesforce-via-saas-proxy" title="Permanent link">&para;</a></h1>
+<h2 id="1-make-the-api-visible-to-gcp">1. Make the API Visible to GCP<a class="headerlink" href="#1-make-the-api-visible-to-gcp" title="Permanent link">&para;</a></h2>
+<p>To make an API of a NAIS app in FSS accessible to Salesforce, the app owner needs to configure an ingress that is visible to GCP. 
+This is typically achieved using a special pub.nais.io ingress. For detailed instructions, refer to the NAIS documentation <a href="https://doc.nais.io/workloads/explanations/migrating-to-gcp/?h=pub.nais.io#how-do-i-reach-an-application-found-on-premises-from-my-application-in-gcp">here</a></p>
+<h2 id="2-grant-access-to-saas-proxy">2. Grant Access to Saas-Proxy<a class="headerlink" href="#2-grant-access-to-saas-proxy" title="Permanent link">&para;</a></h2>
+<p>The app owner must grant access to Saas-Proxy in the app's access policies. Below is an example configuration:
+<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Text Only</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span>
+<span class="normal"><a href="#__codelineno-0-4">4</a></span>
+<span class="normal"><a href="#__codelineno-0-5">5</a></span>
+<span class="normal"><a href="#__codelineno-0-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a>  accessPolicy:
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>    inbound:
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a>      rules:
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a>        - application: saas-proxy
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a>          namespace: teamcrm
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a>          cluster: &lt;dev/prod-gcp&gt;
+</span></code></pre></div></td></tr></table></div></p>
+<h2 id="3-configure-saas-proxy">3. Configure Saas-proxy<a class="headerlink" href="#3-configure-saas-proxy" title="Permanent link">&para;</a></h2>
+<p>Follow the instructions provided in the <a href="https://github.com/navikt/saas-proxy/blob/master/README.md">Saas-proxy documentation</a> to configure the proxy to redirect traffic to the configured ingress.</p>
 
 
 
@@ -2227,7 +2132,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-04-12T08:33:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-04-12</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-08-12T06:59:13+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-08-12</span>
   </span>
 
     
@@ -2237,7 +2142,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-04-12T08:33:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-04-12</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-08-12T06:59:13+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-08-12</span>
   </span>
 
     
@@ -2316,7 +2221,7 @@
         <nav class="md-footer__inner md-grid" aria-label="Footer" >
           
             
-            <a href="../apex_constant/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Apex Constants">
+            <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: How-to guides">
               <div class="md-footer__button md-icon">
                 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2326,20 +2231,20 @@
                   Previous
                 </span>
                 <div class="md-ellipsis">
-                  Apex Constants
+                  How-to guides
                 </div>
               </div>
             </a>
           
           
             
-            <a href="../apex_test_class/" class="md-footer__link md-footer__link--next" aria-label="Next: Apex Test Classes">
+            <a href="../getOrgFromScratchPool/" class="md-footer__link md-footer__link--next" aria-label="Next: Fetch Scratch Org from Pool">
               <div class="md-footer__title">
                 <span class="md-footer__direction">
                   Next
                 </span>
                 <div class="md-ellipsis">
-                  Apex Test Classes
+                  Fetch Scratch Org from Pool
                 </div>
               </div>
               <div class="md-footer__button md-icon">
@@ -2478,16 +2383,16 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.suggest", "search.share", "search.highlight", "content.action.edit", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.top", "navigation.footer", "navigation.path", "toc.follow"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "search.share", "search.highlight", "content.action.edit", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.top", "navigation.footer", "navigation.path", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
       
-        <script src="../../../js/timeago.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../javascript/amplitude_events.js"></script>
+        <script src="../../javascript/amplitude_events.js"></script>
       
     
   </body>
