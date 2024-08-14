@@ -2164,12 +2164,9 @@
 <h3 id="capitalization">Capitalization<a class="headerlink" href="#capitalization" title="Permanent link">&para;</a></h3>
 <p><a href="../casing-styles/#camel-case">camelCase</a></p>
 <h3 id="name">Name<a class="headerlink" href="#name" title="Permanent link">&para;</a></h3>
-<p><code>&lt;Verb(s)&gt;&lt;(optional) Noun Set&gt;</code></p>
+<p><code>&lt;Short yet meaningful nouns&gt;</code></p>
 <h2 id="comments">Comments<a class="headerlink" href="#comments" title="Permanent link">&para;</a></h2>
-<ul>
-<li><strong>Verbs:</strong> describe the actions being performed: get, save, check, etc.</li>
-<li><strong>Noun set:</strong> describes what the verbs are acting on.</li>
-</ul>
+<p>Avoid one-letter variable names, except for temporary variables or loop variables.</p>
 <h2 id="wrong-examples">Wrong Examples<a class="headerlink" href="#wrong-examples" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -2180,12 +2177,16 @@
 </thead>
 <tbody>
 <tr>
-<td><code>parentAccount()</code></td>
-<td style="text-align: left;">Missing verb. What action is being performed on the parent account?</td>
+<td><code>parAcc</code></td>
+<td style="text-align: left;">Unclear what this represents.</td>
 </tr>
 <tr>
-<td><code>GetParentAccount()</code></td>
-<td style="text-align: left;">Starts with capital letter.</td>
+<td><code>parentAccountSave</code></td>
+<td style="text-align: left;">Uses a verb.</td>
+</tr>
+<tr>
+<td><code>ParentAccount</code></td>
+<td style="text-align: left;">Starts with a capital letter.</td>
 </tr>
 </tbody>
 </table>
@@ -2199,7 +2200,7 @@
 </thead>
 <tbody>
 <tr>
-<td><code>getParentAccount()</code></td>
+<td><code>parentAccount</code></td>
 <td style="text-align: left;"></td>
 </tr>
 </tbody>
@@ -2226,7 +2227,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-04-12T08:33:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-04-12</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-05-15T06:37:13+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-05-15</span>
   </span>
 
     
