@@ -10,22 +10,22 @@ Naming standards for Apex Variables.
 
 ### Name
 
-```<Verb(s)><(optional) Noun Set>```
+```<Short yet meaningful nouns>```
 
 ## Comments
 
-- **Verbs:** describe the actions being performed: get, save, check, etc.
-- **Noun set:** describes what the verbs are acting on.
+Avoid one-letter variable names, except for temporary variables or loop variables.
 
 ## Wrong Examples
 
 | Name | Reason |
 |------|:-------|
-| ```parentAccount()``` | Missing verb. What action is being performed on the parent account? |
-| ```GetParentAccount()``` | Starts with capital letter. |
+| ```parAcc``` | Unclear what this represents. |
+| ```parentAccountSave``` | Uses a verb. |
+| ```ParentAccount``` | Starts with a capital letter. |
 
 ## Good Examples
 
 | Name | Reason |
 |------|:-------|
-| ```getParentAccount()``` |  |
+| ```parentAccount``` | |
