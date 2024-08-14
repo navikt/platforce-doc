@@ -1,3 +1,10 @@
+# Determine the OS
+ifeq ($(OS), Windows_NT)
+	COPY_CMD = copy
+else
+	COPY_CMD = cp
+endif
+
 .PHONY: all install local
 
 all: install local
@@ -9,4 +16,4 @@ local: copyreadme
 	poetry run mkdocs serve
 
 copyreadme:
-	python3 main.py
+	$(COPY_CMD) README.md docs/project-readme.md

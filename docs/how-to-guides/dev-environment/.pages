@@ -1,3 +1,15 @@
 title: Development Environment
 nav:
+  - install-package-manager.md
+  - install-git.md
+  - install-homebrew.md
+  - install-scoop.md
+  - install-java.md
+  - install-nodejs.md
+  - install-nvm.md
+  - install-salesforce-cli.md
+  - install-flxbl-sfp.md
+  - install-vscode.md
+  - install-platforce-extension.md
+  - install-dev-dependencies.md
   - ...
