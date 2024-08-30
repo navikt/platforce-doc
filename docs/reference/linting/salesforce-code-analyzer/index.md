@@ -7,6 +7,6 @@ under a single, unified experience available via CLI, IDE, and CI/CD.
 Offical reference: [Salesforce Code Analyzer -
 Overview](https://developer.salesforce.com/docs/platform/salesforce-code-analyzer/overview)
 
-Currently we do not have any special configuration related to Code Analyzer.
-
 Used locally and in CI validation jobs.
+
+[Custom rules](custom-rules) may be added to the CI process.
