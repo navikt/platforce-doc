@@ -4,11 +4,11 @@
 
 ### Object Label
 
-Singular, [Pascal Case](../casing-styles/#pascal-case)
+Singular, [Pascal Case](casing-styles.md#pascal-case)
 
 ### Object Plural Label
 
-Plural, [Pascal Case](../casing-styles/#pascal-case)
+Plural, [Pascal Case](casing-styles.md#pascal-case)
 
 ### Object Name (API Name)
 

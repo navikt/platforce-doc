@@ -9,4 +9,4 @@ Overview](https://developer.salesforce.com/docs/platform/salesforce-code-analyze
 
 Used locally and in CI validation jobs.
 
-[Custom rules](custom-rules) may be added to the CI process.
+[Custom rules](custom-rules.md) may be added to the CI process.

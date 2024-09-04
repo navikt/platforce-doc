@@ -6,7 +6,7 @@ Naming standards for Approval Process Steps.
 
 ### Capitalization
 
-[Natural Text](../casing-styles/#natural-text)
+[Natural Text](casing-styles.md#natural-text)
 
 ### Name
 
@@ -25,4 +25,4 @@ Naming standards for Approval Process Steps.
 | Name | Reason |
 |------|:-------|
 | ```Auto Approved - Value within personal limit``` |  |
- ```Approval - Sent to Manager``` |  |
+| ```Approval - Sent to Manager``` |  |

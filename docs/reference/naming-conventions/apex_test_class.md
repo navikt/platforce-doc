@@ -6,24 +6,25 @@ Naming standards for Apex Test Classes.
 
 ### Capitalization
 
-[PascalCase](../casing-styles/#pascal-case)
+[PascalCase](casing-styles.md#pascal-case)
 
 ### Name
 
-```<Class Being Tested>_Test```
+```<Class Being Tested>Test```
 
 ## Comments
 
-No info added.
+We should NOT use underscore ```_``` in the Test class name.
+This takes an unnecessary character and do not give any meaningful clarity to highlighting a Test class.
 
 ## Wrong Examples
 
 | Name | Reason |
 |------|:-------|
-| ```SBCPT_CustomerAssessmentControllerTest``` | Does not use an underscore before "Test". |
+| ```SBCPT_CustomerAssessmentController_Test``` | Does use an underscore before "Test". |
 
 ## Good Examples
 
 | Name | Reason |
 |------|:-------|
-| ```SBCPT_CustomerAssessmentController_Test``` | |
+| ```SBCPT_CustomerAssessmentControllerTest``` | Does not use an underscore before "Test". |
