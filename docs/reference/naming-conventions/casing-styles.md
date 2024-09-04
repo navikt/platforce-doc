@@ -8,8 +8,8 @@ When it comes to naming conventions, various casing styles exist. Let's explore 
 - All letters are in lowercase.
 - **Examples:**
 
-    - `number_of_users = 34`
-    - `hello_phrase = "Hello World"`
+    - ```number_of_users = 34```
+    - ```hello_phrase = "Hello World"```
 
 ## Screaming Snake Case
 
@@ -17,8 +17,8 @@ When it comes to naming conventions, various casing styles exist. Let's explore 
 - Also known as the "screaming snake case."
 - **Examples:**
 
-    - `NUMBER_OF_USERS = 34`
-    - `HELLO_PHRASE = "Hello World"`
+    - ```NUMBER_OF_USERS = 34```
+    - ```HELLO_PHRASE = "Hello World"```
 
 ## Kebab Case
 
@@ -27,8 +27,8 @@ When it comes to naming conventions, various casing styles exist. Let's explore 
 - Kebab case is a human-readable way to combine multiple words into a single identifier.
 - **Examples:**
 
-    - `number-of-users = 34`
-    - `hello-phrase = "Hello World"`
+    - ```number-of-users = 34```
+    - ```hello-phrase = "Hello World"```
 
 ## Camel Case
 
@@ -36,8 +36,8 @@ When it comes to naming conventions, various casing styles exist. Let's explore 
 - Each subsequent word begins with an uppercase letter.
 - **Examples:**
 
-    - `numberOfUsers = 34`
-    - `helloPhrase = "Hello World"`
+    - ```numberOfUsers = 34```
+    - ```helloPhrase = "Hello World"```
 
 ## Pascal Case
 
@@ -45,10 +45,14 @@ When it comes to naming conventions, various casing styles exist. Let's explore 
 - Every word starts with an uppercase letter.
 - **Examples:**
 
-    - `NumberOfUsers = 34`
-    - `HelloPhrase = "Hello World"`
+    - ```NumberOfUsers = 34```
+    - ```HelloPhrase = "Hello World"```
 
-Choose the appropriate casing style based on your programming language and coding conventions! 🚀
+## Mixed Case
+
+- In mixed case, there is a mix of anything in no particular pattern.
+- **Examples:**
+    - ```given_UserIsAuthenticated_When_InvalidAccountNumberIsUsedToWithdrawMoney_Then_TransactionsWillFail()```
 
 ## Natural Text
 
