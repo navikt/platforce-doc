@@ -6,7 +6,7 @@ Naming standards for Approval Processes.
 
 ### Capitalization
 
-[Natural Text](../casing-styles/#natural-text)
+[Natural Text](casing-styles.md#natural-text)
 
 ### Name
 

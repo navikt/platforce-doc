@@ -6,7 +6,7 @@ Naming standards for Apex Constants.
 
 ### Capitalization
 
-[SNAKE_CASE](../casing-styles/#snake-case)
+[SNAKE_CASE](casing-styles.md#snake-case)
 
 ### Name
 

@@ -6,7 +6,7 @@ Naming standards for Apex Variables.
 
 ### Capitalization
 
-[camelCase](../casing-styles/#camel-case)
+[camelCase](casing-styles.md#camel-case)
 
 ### Name
 

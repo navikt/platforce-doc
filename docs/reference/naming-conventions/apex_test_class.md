@@ -6,7 +6,7 @@ Naming standards for Apex Test Classes.
 
 ### Capitalization
 
-[PascalCase](../casing-styles/#pascal-case)
+[PascalCase](casing-styles.md#pascal-case)
 
 ### Name
 
