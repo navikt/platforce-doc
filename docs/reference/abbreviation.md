@@ -7,3 +7,4 @@ There is a lot of abbreviation used together with the Salesforce Platform or in 
 | HoT     | Hjelpemidler og tilrettelegging |            |
 | INT     | Integration                     |            |
 | NKS     | NAV Kontaktsenter               |            |
+| TAG     | Team Salesforce Arbeidsgiver    |            |
