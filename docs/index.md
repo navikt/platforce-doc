@@ -16,7 +16,7 @@ hide:
 -   :seedling: **Getting Started?**
 
     ---
-    - Initially it's a good idea to learn about [what Salesforce is](./explanation/salesforce.md) to get an idea of the fundamentals.
+    - Initially it's a good idea to learn about [what Salesforce is](./explanation/index.md) to get an idea of the fundamentals.
     - Once you're familiar with the basic concepts, move on to the ... tutorial to get your first app running.
 
 </div>
