@@ -41,6 +41,18 @@ uniquely defined by a combination of *foo* and *bar*.
 
 Use the *crm* folder.
 
+### 4. Set evaluation behavior
+
+Use one of our groups which is evaluated at an appropriate frequency.
+
+#### Configure no data and error handling
+
+##### Alert state if no data or all values are null
+
+Leave at *No Data* to trigger a new, unique alert when the alert condition has
+no data. If no data means everything is fine, which is often the case, instead
+set it to *Normal*.
+
 ### Configure notifications
 
 Use the contact point previously configured.
