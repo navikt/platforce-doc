@@ -12,28 +12,28 @@
         <meta name="author" content="NAV Team Platforce">
       
       
-        <link rel="canonical" href="https://platforce.github.io/docs/reference/naming-conventions/flow/">
+        <link rel="canonical" href="https://platforce.github.io/docs/how-to-guides/setUpSlackAlert/">
       
       
-        <link rel="prev" href="../custom-objects/">
+        <link rel="prev" href="../setUpNamedCredential/">
       
       
-        <link rel="next" href="../flow_elements/">
+        <link rel="next" href="../dev-environment/install-package-manager/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
     
     
       
-        <title>Flows - Platforce Docs</title>
+        <title>Set up a Slack alert rule - Platforce Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e359304.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,13 +52,13 @@
       
     
     
-      <link rel="stylesheet" href="../../../css/timeago.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-      <link rel="stylesheet" href="../../../stylesheets/uu.css">
+      <link rel="stylesheet" href="../../stylesheets/uu.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -103,7 +103,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#flows" class="md-skip">
+        <a href="#set-up-a-slack-alert-rule" class="md-skip">
           Skip to content
         </a>
       
@@ -119,7 +119,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Platforce Docs" class="md-header__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
+    <a href="../.." title="Platforce Docs" class="md-header__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -139,7 +139,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Flows
+              Set up a Slack alert rule
             
           </span>
         </div>
@@ -259,7 +259,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Platforce Docs" class="md-nav__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
+    <a href="../.." title="Platforce Docs" class="md-nav__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -289,7 +289,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -327,7 +327,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../explanation/" class="md-nav__link ">
+            <a href="../../explanation/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -359,6 +359,8 @@
       
   
   
+    
+  
   
   
     
@@ -383,16 +385,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../how-to-guides/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -409,7 +411,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             How-to Guides
@@ -425,7 +427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/exposeFssAppToSalesforce/" class="md-nav__link">
+      <a href="../exposeFssAppToSalesforce/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -446,7 +448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/getOrgFromScratchPool/" class="md-nav__link">
+      <a href="../getOrgFromScratchPool/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -467,7 +469,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/postApplicationLogToSlack/" class="md-nav__link">
+      <a href="../postApplicationLogToSlack/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -488,7 +490,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/setUpNamedCredential/" class="md-nav__link">
+      <a href="../setUpNamedCredential/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -506,10 +508,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../how-to-guides/setUpSlackAlert/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Set up a Slack alert rule
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -518,6 +540,164 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-a-contact-point" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set up a contact point
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Set up a contact point">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#slack-hook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Slack hook
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contact-point" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contact point
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-the-alert-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set up the alert rule
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Set up the alert rule">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#define-query-and-alert-condition" class="md-nav__link">
+    <span class="md-ellipsis">
+      Define query and alert condition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#add-folder-and-labels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Add folder and labels
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-set-evaluation-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Set evaluation behavior
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Set evaluation behavior">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configure-no-data-and-error-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure no data and error handling
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configure no data and error handling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alert-state-if-no-data-or-all-values-are-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert state if no data or all values are null
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-notifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure notifications
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configure notifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#override-grouping" class="md-nav__link">
+    <span class="md-ellipsis">
+      Override grouping
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-notification-message" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure notification message
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -574,7 +754,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../how-to-guides/dev-environment/" class="md-nav__link ">
+            <a href="../dev-environment/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -605,7 +785,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-package-manager/" class="md-nav__link">
+      <a href="../dev-environment/install-package-manager/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -626,7 +806,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-git/" class="md-nav__link">
+      <a href="../dev-environment/install-git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -647,7 +827,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-homebrew/" class="md-nav__link">
+      <a href="../dev-environment/install-homebrew/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -668,7 +848,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-scoop/" class="md-nav__link">
+      <a href="../dev-environment/install-scoop/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -689,7 +869,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-java/" class="md-nav__link">
+      <a href="../dev-environment/install-java/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -710,7 +890,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-nodejs/" class="md-nav__link">
+      <a href="../dev-environment/install-nodejs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -731,7 +911,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-nvm/" class="md-nav__link">
+      <a href="../dev-environment/install-nvm/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -752,7 +932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-salesforce-cli/" class="md-nav__link">
+      <a href="../dev-environment/install-salesforce-cli/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -773,7 +953,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-flxbl-sfp/" class="md-nav__link">
+      <a href="../dev-environment/install-flxbl-sfp/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -794,7 +974,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-vscode/" class="md-nav__link">
+      <a href="../dev-environment/install-vscode/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -815,7 +995,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-platforce-extension/" class="md-nav__link">
+      <a href="../dev-environment/install-platforce-extension/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -836,7 +1016,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/install-dev-dependencies/" class="md-nav__link">
+      <a href="../dev-environment/install-dev-dependencies/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -859,7 +1039,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../how-to-guides/dev-environment/recommended-names-and-aliases/" class="md-nav__link">
+      <a href="../dev-environment/recommended-names-and-aliases/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -892,8 +1072,6 @@
       
   
   
-    
-  
   
   
     
@@ -924,16 +1102,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../../reference/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -950,7 +1128,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Reference
@@ -966,7 +1144,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../abbreviation/" class="md-nav__link">
+      <a href="../../reference/abbreviation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -987,7 +1165,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../acronyms/" class="md-nav__link">
+      <a href="../../reference/acronyms/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1008,7 +1186,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../names-and-aliases/" class="md-nav__link">
+      <a href="../../reference/names-and-aliases/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1029,7 +1207,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../scratchPools/" class="md-nav__link">
+      <a href="../../reference/scratchPools/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1068,7 +1246,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../experience-cloud/" class="md-nav__link ">
+            <a href="../../reference/experience-cloud/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1122,7 +1300,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../git-workflows/" class="md-nav__link ">
+            <a href="../../reference/git-workflows/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1184,7 +1362,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../linting/" class="md-nav__link ">
+            <a href="../../reference/linting/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1217,7 +1395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linting/eslint/" class="md-nav__link">
+      <a href="../../reference/linting/eslint/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1238,7 +1416,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linting/git-hooks/" class="md-nav__link">
+      <a href="../../reference/linting/git-hooks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1259,7 +1437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linting/prettier/" class="md-nav__link">
+      <a href="../../reference/linting/prettier/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1300,7 +1478,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../linting/salesforce-code-analyzer/" class="md-nav__link ">
+            <a href="../../reference/linting/salesforce-code-analyzer/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1333,7 +1511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../linting/salesforce-code-analyzer/custom-rules/" class="md-nav__link">
+      <a href="../../reference/linting/salesforce-code-analyzer/custom-rules/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1390,7 +1568,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../logging/" class="md-nav__link ">
+            <a href="../../reference/logging/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1423,7 +1601,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../logging/crm-plattform-alerts-app/" class="md-nav__link">
+      <a href="../../reference/logging/crm-plattform-alerts-app/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1449,8 +1627,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1491,16 +1667,16 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_10" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_10" >
         
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../reference/naming-conventions/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -1517,7 +1693,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_10_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_10_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_10">
             <span class="md-nav__icon md-icon"></span>
             Naming Conventions
@@ -1531,7 +1707,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../casing-styles/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/casing-styles/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1554,7 +1730,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../annotations/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/annotations/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1575,7 +1751,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_class/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_class/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1596,7 +1772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_constant/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_constant/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1617,7 +1793,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_method/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_method/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1638,7 +1814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_test_class/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_test_class/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1659,7 +1835,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_test_method/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_test_method/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1680,7 +1856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../apex_variable/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_variable/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1701,7 +1877,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../approval_process/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/approval_process/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1722,7 +1898,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../approval_process_step/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/approval_process_step/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1743,7 +1919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../custom-fields/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/custom-fields/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1764,7 +1940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../custom-objects/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/custom-objects/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1782,30 +1958,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Flows
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../reference/naming-conventions/flow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1814,134 +1970,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#rules-for-naming" class="md-nav__link">
-    <span class="md-ellipsis">
-      Rules for Naming
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Rules for Naming">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#capitalization" class="md-nav__link">
-    <span class="md-ellipsis">
-      Capitalization
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#name" class="md-nav__link">
-    <span class="md-ellipsis">
-      Name
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Name">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#screen-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      Screen Flow
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#autolaunched-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      Autolaunched Flow
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#comments" class="md-nav__link">
-    <span class="md-ellipsis">
-      Comments
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wrong-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wrong Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#good-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Good Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Good Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#screen-flow_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Screen Flow
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#autolaunched-flow_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Autolaunched Flow
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1954,7 +1982,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../flow_elements/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/flow_elements/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2010,7 +2038,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../security/" class="md-nav__link ">
+            <a href="../../security/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2061,7 +2089,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../security/access-control/" class="md-nav__link ">
+            <a href="../../security/access-control/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2124,7 +2152,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../tutorial/" class="md-nav__link ">
+            <a href="../../tutorial/" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -2157,7 +2185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tutorial/quickstart-setup-linting/" class="md-nav__link">
+      <a href="../../tutorial/quickstart-setup-linting/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2228,7 +2256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../team-platforce/about/" class="md-nav__link">
+      <a href="../../team-platforce/about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2249,7 +2277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../team-platforce/contact/" class="md-nav__link">
+      <a href="../../team-platforce/contact/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2270,7 +2298,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../team-platforce/mission-statement/" class="md-nav__link">
+      <a href="../../team-platforce/mission-statement/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2298,7 +2326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../project-readme/" class="md-nav__link">
+      <a href="../../project-readme/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2338,47 +2366,90 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rules-for-naming" class="md-nav__link">
+  <a href="#set-up-a-contact-point" class="md-nav__link">
     <span class="md-ellipsis">
-      Rules for Naming
+      Set up a contact point
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Rules for Naming">
+    <nav class="md-nav" aria-label="Set up a contact point">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#capitalization" class="md-nav__link">
+  <a href="#slack-hook" class="md-nav__link">
     <span class="md-ellipsis">
-      Capitalization
+      Slack hook
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#name" class="md-nav__link">
+  <a href="#contact-point" class="md-nav__link">
     <span class="md-ellipsis">
-      Name
+      Contact point
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Name">
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-up-the-alert-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set up the alert rule
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Set up the alert rule">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#screen-flow" class="md-nav__link">
+  <a href="#define-query-and-alert-condition" class="md-nav__link">
     <span class="md-ellipsis">
-      Screen Flow
+      Define query and alert condition
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#autolaunched-flow" class="md-nav__link">
+  <a href="#add-folder-and-labels" class="md-nav__link">
     <span class="md-ellipsis">
-      Autolaunched Flow
+      Add folder and labels
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-set-evaluation-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Set evaluation behavior
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Set evaluation behavior">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configure-no-data-and-error-handling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure no data and error handling
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configure no data and error handling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alert-state-if-no-data-or-all-values-are-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alert state if no data or all values are null
     </span>
   </a>
   
@@ -2393,48 +2464,35 @@
     </nav>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#comments" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#configure-notifications" class="md-nav__link">
     <span class="md-ellipsis">
-      Comments
+      Configure notifications
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#wrong-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Wrong Examples
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#good-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      Good Examples
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Good Examples">
+    <nav class="md-nav" aria-label="Configure notifications">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#screen-flow_1" class="md-nav__link">
+  <a href="#override-grouping" class="md-nav__link">
     <span class="md-ellipsis">
-      Screen Flow
+      Override grouping
     </span>
   </a>
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+        
           <li class="md-nav__item">
-  <a href="#autolaunched-flow_1" class="md-nav__link">
+  <a href="#configure-notification-message" class="md-nav__link">
     <span class="md-ellipsis">
-      Autolaunched Flow
+      Configure notification message
     </span>
   </a>
   
@@ -2460,7 +2518,7 @@
                   
 
   
-    <a href="https://github.com/navikt/platforce-doc/edit/main/docs/reference/naming-conventions/flow.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/navikt/platforce-doc/edit/main/docs/how-to-guides/setUpSlackAlert.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -2468,75 +2526,56 @@
   
 
 
-<h1 id="flows">Flows<a class="headerlink" href="#flows" title="Permanent link">&para;</a></h1>
-<p>Naming standards for Flows.</p>
-<h2 id="rules-for-naming">Rules for Naming<a class="headerlink" href="#rules-for-naming" title="Permanent link">&para;</a></h2>
-<h3 id="capitalization">Capitalization<a class="headerlink" href="#capitalization" title="Permanent link">&para;</a></h3>
-<p><a href="../casing-styles/#natural-text">Natural Text</a></p>
-<h3 id="name">Name<a class="headerlink" href="#name" title="Permanent link">&para;</a></h3>
-<h4 id="screen-flow">Screen Flow<a class="headerlink" href="#screen-flow" title="Permanent link">&para;</a></h4>
-<p><code>&lt;Short Yet Meaningful Description&gt;</code></p>
-<h4 id="autolaunched-flow">Autolaunched Flow<a class="headerlink" href="#autolaunched-flow" title="Permanent link">&para;</a></h4>
-<ul>
-<li><strong>Users or Apps:</strong> <code>&lt;Verb(s)&gt;&lt;Optional Noun Set&gt;</code></li>
-<li><strong>Flow Trigger:</strong> <code>&lt;Object Name&gt; Before Handler</code></li>
-<li><strong>Scheduled:</strong> <code>&lt;Short Process Description&gt;</code></li>
-</ul>
-<h2 id="comments">Comments<a class="headerlink" href="#comments" title="Permanent link">&para;</a></h2>
-<h2 id="wrong-examples">Wrong Examples<a class="headerlink" href="#wrong-examples" title="Permanent link">&para;</a></h2>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th style="text-align: left;">Reason</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Send reminder</code></td>
-<td style="text-align: left;">Not enough information; principal words not capitalized.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="good-examples">Good Examples<a class="headerlink" href="#good-examples" title="Permanent link">&para;</a></h2>
-<h3 id="screen-flow_1">Screen Flow<a class="headerlink" href="#screen-flow_1" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th style="text-align: left;">Reason</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Reschedule Order Delivery</code></td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
-<h3 id="autolaunched-flow_1">Autolaunched Flow<a class="headerlink" href="#autolaunched-flow_1" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th style="text-align: left;">Reason</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>Users or Apps: Add Default Opportunity Team Members</code></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td><code>Flow Trigger: Case Before Handler</code></td>
-<td style="text-align: left;"></td>
-</tr>
-<tr>
-<td><code>Scheduled: Remind Opportunity Owners</code></td>
-<td style="text-align: left;"></td>
-</tr>
-</tbody>
-</table>
+<h1 id="set-up-a-slack-alert-rule">Set up a Slack alert rule<a class="headerlink" href="#set-up-a-slack-alert-rule" title="Permanent link">&para;</a></h1>
+<p>Instruct our alert bot to send a message to a slack channel based on some
+statistics from Grafana fulfilling certain criteria.</p>
+<h2 id="set-up-a-contact-point">Set up a contact point<a class="headerlink" href="#set-up-a-contact-point" title="Permanent link">&para;</a></h2>
+<h3 id="slack-hook">Slack hook<a class="headerlink" href="#slack-hook" title="Permanent link">&para;</a></h3>
+<p>If there already is an appropriate contact point, e.g. <code>1-line alerts for
+Salesforce</code>, you may skip this step.</p>
+<p>If you want to set up a new one, either in order to post to a new channel, or to
+use a different message template, head to the slack bot
+api <a href="https://api.slack.com/apps/A0191212YPN">https://api.slack.com/apps/A0191212YPN</a>
+and go to <em>Incoming Webhooks</em>. Set up a new hook and save the URL for later.</p>
+<h3 id="contact-point">Contact point<a class="headerlink" href="#contact-point" title="Permanent link">&para;</a></h3>
+<p>Go to Contact points and create a new one
+<a href="https://grafana.nav.cloud.nais.io/alerting/notifications/receivers/new">https://grafana.nav.cloud.nais.io/alerting/notifications/receivers/new</a>. Use
+<em>Integration</em> type <em>Slack</em> and use the previously gotten URL in <em>Webhook URL</em>.</p>
+<p>Under <em>Optional Slack settings</em> edit the <em>Title</em> and the <em>Text body</em>, and set
+them to <code>brief.title</code> and <code>brief.message</code> respectively, or other templates if
+you prefer.</p>
+<h2 id="set-up-the-alert-rule">Set up the alert rule<a class="headerlink" href="#set-up-the-alert-rule" title="Permanent link">&para;</a></h2>
+<p>Head to New alert
+<a href="https://grafana.nav.cloud.nais.io/alerting/new/alerting?returnTo=%2Falerting%2Flist">https://grafana.nav.cloud.nais.io/alerting/new/alerting?returnTo=%2Falerting%2Flist</a>
+to create a new rule.</p>
+<h3 id="define-query-and-alert-condition">Define query and alert condition<a class="headerlink" href="#define-query-and-alert-condition" title="Permanent link">&para;</a></h3>
+<p>Set up the query you would like to use. Usually this will begin with <code>sum by
+(foo, bar)</code>, this will give you an integer value for each row, each being
+uniquely defined by a combination of <em>foo</em> and <em>bar</em>.</p>
+<h3 id="add-folder-and-labels">Add folder and labels<a class="headerlink" href="#add-folder-and-labels" title="Permanent link">&para;</a></h3>
+<p>Use the <em>crm</em> folder.</p>
+<h3 id="4-set-evaluation-behavior">4. Set evaluation behavior<a class="headerlink" href="#4-set-evaluation-behavior" title="Permanent link">&para;</a></h3>
+<p>Use one of our groups which is evaluated at an appropriate frequency.</p>
+<h4 id="configure-no-data-and-error-handling">Configure no data and error handling<a class="headerlink" href="#configure-no-data-and-error-handling" title="Permanent link">&para;</a></h4>
+<h5 id="alert-state-if-no-data-or-all-values-are-null">Alert state if no data or all values are null<a class="headerlink" href="#alert-state-if-no-data-or-all-values-are-null" title="Permanent link">&para;</a></h5>
+<p>Leave at <em>No Data</em> to trigger a new, unique alert when the alert condition has
+no data. If no data means everything is fine, which is often the case, instead
+set it to <em>Normal</em>.</p>
+<h3 id="configure-notifications">Configure notifications<a class="headerlink" href="#configure-notifications" title="Permanent link">&para;</a></h3>
+<p>Use the contact point previously configured.</p>
+<h4 id="override-grouping">Override grouping<a class="headerlink" href="#override-grouping" title="Permanent link">&para;</a></h4>
+<p>If you want to split up the alert in multiple messages, you may use this setting
+to do so. E.g. only adding <code>foo</code> will place all the alerts with the same <code>foo</code>
+but different <code>bar</code> in a single message.</p>
+<h3 id="configure-notification-message">Configure notification message<a class="headerlink" href="#configure-notification-message" title="Permanent link">&para;</a></h3>
+<p>This is what the slack bot will display. Place a brief description of the
+problem in <em>description</em> and more details in <em>summary</em>, e.g. <code>too many {{ index
+$labels "foo" }} of type {{ index $labels "bar" }}</code>.</p>
+<p>For added info, it is possible to use multiple queries and reference them in the
+summary. For instance, query A may be a daily report, and query B a weekly
+report, where both queries use the same <code>sum by ...</code>. Now we can add <code>{{
+$values.B.value }}</code> to our summary. Make sure to use <em>Set as alert condition</em> on
+the correct query that you want to trigger the alert.</p>
 
 
 
@@ -2559,7 +2598,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-09-04T06:10:20+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-09-04</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-04-08T16:29:43+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-04-08</span>
   </span>
 
     
@@ -2569,7 +2608,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3h-2Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-04-12T08:33:08+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-04-12</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2025-04-04T10:46:57+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2025-04-04</span>
   </span>
 
     
@@ -2648,7 +2687,7 @@
         <nav class="md-footer__inner md-grid" aria-label="Footer" >
           
             
-            <a href="../custom-objects/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Custom Objects">
+            <a href="../setUpNamedCredential/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Set up a Named Credential">
               <div class="md-footer__button md-icon">
                 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -2658,20 +2697,20 @@
                   Previous
                 </span>
                 <div class="md-ellipsis">
-                  Custom Objects
+                  Set up a Named Credential
                 </div>
               </div>
             </a>
           
           
             
-            <a href="../flow_elements/" class="md-footer__link md-footer__link--next" aria-label="Next: Flow Elements">
+            <a href="../dev-environment/install-package-manager/" class="md-footer__link md-footer__link--next" aria-label="Next: Install Package Manager">
               <div class="md-footer__title">
                 <span class="md-footer__direction">
                   Next
                 </span>
                 <div class="md-ellipsis">
-                  Flow Elements
+                  Install Package Manager
                 </div>
               </div>
               <div class="md-footer__button md-icon">
@@ -2810,16 +2849,16 @@
       </div>
       <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["search.suggest", "search.share", "search.highlight", "content.action.edit", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.top", "navigation.footer", "navigation.path", "toc.follow"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.suggest", "search.share", "search.highlight", "content.action.edit", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.top", "navigation.footer", "navigation.path", "toc.follow"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
       
-        <script src="../../../js/timeago.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../javascript/amplitude_events.js"></script>
+        <script src="../../javascript/amplitude_events.js"></script>
       
     
   </body>
