@@ -1,20 +1,18 @@
 # Please see the documentation for all configuration options:
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
-
 version: 2
 updates:
-  - package-ecosystem: "github-actions" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "github-actions"
+    directory: "/" # must be root (ref. docs)
     schedule:
       interval: "weekly"
+      time: "09:00"
       day: "monday"
-      time: "05:00"
-      timezone: "Europe/Berlin"
     groups:
-      gha:
+      actions:
         patterns:
           - "*"
-- package-ecosystem: "pip" # poetry / pyproject
+  - package-ecosystem: "pip" # poetry / pyproject
     directory: "/"
     schedule:
       interval: "weekly"
