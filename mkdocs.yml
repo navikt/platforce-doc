@@ -1,7 +1,7 @@
 # Project information
 site_name: Platforce Docs
 site_description: Documentation for Platforce
-site_author: NAV Team Platforce
+site_author: Nav Team Platforce
 site_url: https://platforce.github.io/docs/
 
 # Repository
@@ -10,11 +10,14 @@ repo_url: https://github.com/navikt/platforce-doc
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2024 NAV
+copyright: Copyright &copy; 2024 Nav
 
 # Configuration
 theme:
   name: material
+  language: "en"
+  logo: assets/platforce_logo.png
+  favicon: assets/platforce_logo.png
   custom_dir: material/overrides
   features:
     - search.suggest
@@ -32,17 +35,27 @@ theme:
     - navigation.footer
     - navigation.path
     - toc.follow
+  
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default # light-mode
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate # dark-mode
+      scheme: slate
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to system preference
   icon:
     repo: fontawesome/brands/github
 
@@ -61,7 +74,7 @@ extra:
   generator: true
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/nav
+      link: https://github.com/navikt
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/nav
   analytics:
