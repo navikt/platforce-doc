@@ -28,7 +28,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install poetry
-        uses: abatilo/actions-poetry@v2
+        uses: abatilo/actions-poetry@v4
 
       - name: Run pipx
         uses: CfirTsabari/actions-pipx@v1
@@ -55,7 +55,7 @@ jobs:
         with:
           ref: 'gh-pages'
       - name: Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
