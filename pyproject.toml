@@ -8,11 +8,11 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pymdown-extensions = "^10.7.1"
+pymdown-extensions = "^10.15"
 mkdocs = "^1.5.3"
-mkdocs-material = "^9.5.13"
-mkdocs-awesome-pages-plugin = "^2.9.2"
-mkdocs-git-revision-date-localized-plugin = "^1.2.4"
+mkdocs-material = "^9.5.18"
+mkdocs-awesome-pages-plugin = "^2.10.1"
+mkdocs-git-revision-date-localized-plugin = "^1.4.5"
 
 [tool.poetry.dev-dependencies]
 
