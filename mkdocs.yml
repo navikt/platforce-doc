@@ -9,9 +9,6 @@ repo_name: navikt/platforce-doc
 repo_url: https://github.com/navikt/platforce-doc
 edit_uri: edit/main/docs/
 
-# Copyright
-copyright: Copyright &copy; 2024 Nav
-
 # Configuration
 theme:
   name: material
@@ -19,55 +16,40 @@ theme:
   logo: assets/platforce_logo.png
   favicon: assets/platforce_logo.png
   custom_dir: material/overrides
+  palette:
+    - media: "(prefers-color-scheme)" # Palette toggle for automatic mode
+      scheme: default 
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)" # Palette toggle for light mode
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" # Palette toggle for dark mode
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   features:
-    - search.suggest
-    - search.share
-    - search.highlight
     - content.action.edit
     - content.code.copy
     - content.code.annotate
     - content.tabs.link
     - content.tooltips
+    - navigation.footer
     - navigation.instant
     - navigation.instant.progress
     - navigation.indexes
     - navigation.top
-    - navigation.footer
     - navigation.path
+    - search.suggest
+    - search.share
+    - search.highlight
     - toc.follow
-  
-  palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      scheme: default 
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
   icon:
     repo: fontawesome/brands/github
-
-# Plugins
-plugins:
-  - search:
-      lang: en
-  - awesome-pages
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-      strict: false
+  copyright: Copyright &copy; 2024 Nav
 
 # Additional configuration
 extra:
@@ -112,6 +94,16 @@ extra_css:
 # Additional JavaScript
 extra_javascript:
   - javascript/amplitude_events.js
+
+# Plugins
+plugins:
+  - awesome-pages
+  - search:
+      lang: en
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+      strict: false
 
 # Extensions
 markdown_extensions:
