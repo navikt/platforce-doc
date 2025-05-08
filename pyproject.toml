@@ -3,18 +3,16 @@ name = "platforce-doc"
 version = "0.1.0"
 description = "Platforce Documentation for Developers in NAV on the Salesforce Platform"
 authors = []
-readme = "README.md"
 package-mode = false
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pymdown-extensions = "^10.15"
 mkdocs = "^1.5.3"
+pymdown-extensions = "^10.15"
 mkdocs-material = "^9.5.18"
-mkdocs-awesome-pages-plugin = "^2.10.1"
 mkdocs-git-revision-date-localized-plugin = "^1.4.5"
-
-[tool.poetry.dev-dependencies]
+mkdocs-awesome-pages-plugin = "^2.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
