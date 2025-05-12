@@ -10,7 +10,7 @@ readme = "README.md"
 python = "^3.11"
 mkdocs = "^1.5.3"
 pymdown-extensions = "^10.15"
-mkdocs-material = "^9.5.18"
+mkdocs-material = "^9.6.13"
 mkdocs-git-revision-date-localized-plugin = "^1.4.5"
 mkdocs-awesome-pages-plugin = "^2.10.1"
 
