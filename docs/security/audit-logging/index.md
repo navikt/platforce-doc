@@ -19,6 +19,11 @@ The object list contains the API name of each object and specifies which field c
 Platforce is responsible for the NAIS app and transferring logs to ArcSight.
 Each team is responsible for including all relevant objects in [objects.yaml](https://github.com/navikt/sf-audit-logging/blob/main/src/main/resources/objects.yaml) to ensure that all relevant records are logged.
 
+### Enable audit logging for new object types
+
+1. Grant View All Data access for the object in the [Integration Audit Logs](https://github.com/navikt/crm-platform-unpackaged/blob/main/force-app/main/default/permissionsets/Integration_AuditLogs.permissionset-meta.xml) permission set, and give access to the field related to the Account.
+2. Add the object’s API name to [objects.yaml](https://github.com/navikt/sf-audit-logging/blob/main/src/main/resources/objects.yaml) and specify the field containing the associated person ident.
+
 ## Monitoring
 
 A [Grafana board](https://grafana.nav.cloud.nais.io/d/fekgqpvnx2qkgd/audit-logs?orgId=1&from=now-7d&to=now&timezone=browser) shows the number of logs transferred each day, grouped by object name.
