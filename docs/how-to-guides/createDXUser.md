@@ -22,7 +22,7 @@ To make it easier to distinguish the DX users when navigating in the production 
     * **Last name:** The last name and add " (DX)" in the end
     * **License:** Salesforce Limited Access - Free
     * **Profile:** NAV DX Developer Free
-    * **Username:**  the user's NAV email address with the suffix ".dx"    * **Last name:** The last name and add " (DX)" in the end
+    * **Username:**  the user's NAV email address with the suffix ".dx"
 3. Assign the following permission sets
     * DX - Create Second Generation Packages
     * DX - Promoter Pakker
