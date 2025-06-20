@@ -8,10 +8,6 @@ All operations involving records related to a person ident (fødselsnummer) shou
 4. Person idents are fetched using the record IDs in the Lightning URI events.
 5. Logs are transferred to ArcSight.
 
-!!! info "New NAIS app"
-
-    This documentation describes sf-audit-logging, which is not yet live. sf-audit will be replaced by sf-audit-logging during the summer 2025.
-
 ## Maintain the list of objects to be logged
 
 Only records with object types listed in [objects.yaml](https://github.com/navikt/sf-audit-logging/blob/main/src/main/resources/objects.yaml) are included in the audit logs.
