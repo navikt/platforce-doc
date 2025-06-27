@@ -27,10 +27,10 @@ jobs:
           python-version: '3.x'
 
       - name: Install poetry
-        uses: abatilo/actions-poetry@v4
+        uses: abatilo/actions-poetry@3765cf608f2d4a72178a9fc5b918668e542b89b1
 
       - name: Run pipx
-        uses: CfirTsabari/actions-pipx@v1
+        uses: CfirTsabari/actions-pipx@d35b22ca4591edf63f63825e9dc62cb2d3707cc5
 
       - name: Install the project dependencies
         run: poetry install
