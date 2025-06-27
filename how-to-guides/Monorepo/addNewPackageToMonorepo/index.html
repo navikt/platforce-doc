@@ -12,28 +12,28 @@
         <meta name="author" content="Nav Team Platforce">
       
       
-        <link rel="canonical" href="https://platforce.github.io/docs/security/access-control/">
+        <link rel="canonical" href="https://platforce.github.io/docs/how-to-guides/Monorepo/addNewPackageToMonorepo/">
       
       
-        <link rel="prev" href="../">
+        <link rel="prev" href="../../setUpSlackAlert/">
       
       
-        <link rel="next" href="../audit-logging/">
+        <link rel="next" href="../../dev-environment/install-package-manager/">
       
       
-      <link rel="icon" href="../../assets/platforce_logo.png">
+      <link rel="icon" href="../../../assets/platforce_logo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Access Control - Platforce Docs</title>
+        <title>Add new package to monorepo - Platforce Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,13 +52,13 @@
       
     
     
-      <link rel="stylesheet" href="../../css/timeago.css">
+      <link rel="stylesheet" href="../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-      <link rel="stylesheet" href="../../stylesheets/uu.css">
+      <link rel="stylesheet" href="../../../stylesheets/uu.css">
     
-    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -103,7 +103,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#access-control" class="md-skip">
+        <a href="#add-new-package-to-monorepo" class="md-skip">
           Skip to content
         </a>
       
@@ -119,9 +119,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Platforce Docs" class="md-header__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
+    <a href="../../.." title="Platforce Docs" class="md-header__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
       
-  <img src="../../assets/platforce_logo.png" alt="logo">
+  <img src="../../../assets/platforce_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -138,7 +138,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Access Control
+              Add new package to monorepo
             
           </span>
         </div>
@@ -271,9 +271,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Platforce Docs" class="md-nav__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
+    <a href="../../.." title="Platforce Docs" class="md-nav__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
       
-  <img src="../../assets/platforce_logo.png" alt="logo">
+  <img src="../../../assets/platforce_logo.png" alt="logo">
 
     </a>
     Platforce Docs
@@ -300,7 +300,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -340,7 +340,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../explanation/" class="md-nav__link ">
+            <a href="../../../explanation/" class="md-nav__link ">
               
   
   
@@ -374,6 +374,8 @@
       
   
   
+    
+  
   
   
     
@@ -403,15 +405,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../how-to-guides/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   
@@ -430,7 +432,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             How-to Guides
@@ -446,7 +448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/createDXUser/" class="md-nav__link">
+      <a href="../../createDXUser/" class="md-nav__link">
         
   
   
@@ -469,7 +471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/exposeFssAppToSalesforce/" class="md-nav__link">
+      <a href="../../exposeFssAppToSalesforce/" class="md-nav__link">
         
   
   
@@ -492,7 +494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/getOrgFromScratchPool/" class="md-nav__link">
+      <a href="../../getOrgFromScratchPool/" class="md-nav__link">
         
   
   
@@ -515,7 +517,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/postApplicationLogToSlack/" class="md-nav__link">
+      <a href="../../postApplicationLogToSlack/" class="md-nav__link">
         
   
   
@@ -538,7 +540,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/setUpNamedCredential/" class="md-nav__link">
+      <a href="../../setUpNamedCredential/" class="md-nav__link">
         
   
   
@@ -561,7 +563,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/setUpSlackAlert/" class="md-nav__link">
+      <a href="../../setUpSlackAlert/" class="md-nav__link">
         
   
   
@@ -581,8 +583,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -592,11 +596,11 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" checked>
         
           
           <label class="md-nav__link" for="__nav_3_8" id="__nav_3_8_label" tabindex="0">
@@ -612,7 +616,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_8">
             <span class="md-nav__icon md-icon"></span>
             Monorepo
@@ -623,10 +627,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../how-to-guides/Monorepo/addNewPackageToMonorepo/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -637,6 +650,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -701,7 +715,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../how-to-guides/dev-environment/" class="md-nav__link ">
+            <a href="../../dev-environment/" class="md-nav__link ">
               
   
   
@@ -734,7 +748,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-package-manager/" class="md-nav__link">
+      <a href="../../dev-environment/install-package-manager/" class="md-nav__link">
         
   
   
@@ -757,7 +771,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-git/" class="md-nav__link">
+      <a href="../../dev-environment/install-git/" class="md-nav__link">
         
   
   
@@ -780,7 +794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-homebrew/" class="md-nav__link">
+      <a href="../../dev-environment/install-homebrew/" class="md-nav__link">
         
   
   
@@ -803,7 +817,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-scoop/" class="md-nav__link">
+      <a href="../../dev-environment/install-scoop/" class="md-nav__link">
         
   
   
@@ -826,7 +840,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-java/" class="md-nav__link">
+      <a href="../../dev-environment/install-java/" class="md-nav__link">
         
   
   
@@ -849,7 +863,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-nodejs/" class="md-nav__link">
+      <a href="../../dev-environment/install-nodejs/" class="md-nav__link">
         
   
   
@@ -872,7 +886,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-nvm/" class="md-nav__link">
+      <a href="../../dev-environment/install-nvm/" class="md-nav__link">
         
   
   
@@ -895,7 +909,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-salesforce-cli/" class="md-nav__link">
+      <a href="../../dev-environment/install-salesforce-cli/" class="md-nav__link">
         
   
   
@@ -918,7 +932,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-flxbl-sfp/" class="md-nav__link">
+      <a href="../../dev-environment/install-flxbl-sfp/" class="md-nav__link">
         
   
   
@@ -941,7 +955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-vscode/" class="md-nav__link">
+      <a href="../../dev-environment/install-vscode/" class="md-nav__link">
         
   
   
@@ -964,7 +978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-platforce-extension/" class="md-nav__link">
+      <a href="../../dev-environment/install-platforce-extension/" class="md-nav__link">
         
   
   
@@ -987,7 +1001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/install-dev-dependencies/" class="md-nav__link">
+      <a href="../../dev-environment/install-dev-dependencies/" class="md-nav__link">
         
   
   
@@ -1012,7 +1026,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../how-to-guides/dev-environment/recommended-names-and-aliases/" class="md-nav__link">
+      <a href="../../dev-environment/recommended-names-and-aliases/" class="md-nav__link">
         
   
   
@@ -1088,7 +1102,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/" class="md-nav__link ">
+            <a href="../../../reference/" class="md-nav__link ">
               
   
   
@@ -1123,7 +1137,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/abbreviation/" class="md-nav__link">
+      <a href="../../../reference/abbreviation/" class="md-nav__link">
         
   
   
@@ -1146,7 +1160,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/acronyms/" class="md-nav__link">
+      <a href="../../../reference/acronyms/" class="md-nav__link">
         
   
   
@@ -1169,7 +1183,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/lightningPageRecords/" class="md-nav__link">
+      <a href="../../../reference/lightningPageRecords/" class="md-nav__link">
         
   
   
@@ -1192,7 +1206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/names-and-aliases/" class="md-nav__link">
+      <a href="../../../reference/names-and-aliases/" class="md-nav__link">
         
   
   
@@ -1215,7 +1229,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/scratchPools/" class="md-nav__link">
+      <a href="../../../reference/scratchPools/" class="md-nav__link">
         
   
   
@@ -1256,7 +1270,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/experience-cloud/" class="md-nav__link ">
+            <a href="../../../reference/experience-cloud/" class="md-nav__link ">
               
   
   
@@ -1312,7 +1326,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/git-workflows/" class="md-nav__link ">
+            <a href="../../../reference/git-workflows/" class="md-nav__link ">
               
   
   
@@ -1376,7 +1390,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/linting/" class="md-nav__link ">
+            <a href="../../../reference/linting/" class="md-nav__link ">
               
   
   
@@ -1411,7 +1425,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/linting/eslint/" class="md-nav__link">
+      <a href="../../../reference/linting/eslint/" class="md-nav__link">
         
   
   
@@ -1434,7 +1448,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/linting/git-hooks/" class="md-nav__link">
+      <a href="../../../reference/linting/git-hooks/" class="md-nav__link">
         
   
   
@@ -1457,7 +1471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/linting/prettier/" class="md-nav__link">
+      <a href="../../../reference/linting/prettier/" class="md-nav__link">
         
   
   
@@ -1500,7 +1514,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/linting/salesforce-code-analyzer/" class="md-nav__link ">
+            <a href="../../../reference/linting/salesforce-code-analyzer/" class="md-nav__link ">
               
   
   
@@ -1535,7 +1549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/linting/salesforce-code-analyzer/custom-rules/" class="md-nav__link">
+      <a href="../../../reference/linting/salesforce-code-analyzer/custom-rules/" class="md-nav__link">
         
   
   
@@ -1594,7 +1608,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/logging/" class="md-nav__link ">
+            <a href="../../../reference/logging/" class="md-nav__link ">
               
   
   
@@ -1629,7 +1643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/logging/crm-plattform-alerts-app/" class="md-nav__link">
+      <a href="../../../reference/logging/crm-plattform-alerts-app/" class="md-nav__link">
         
   
   
@@ -1706,7 +1720,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../reference/naming-conventions/" class="md-nav__link ">
+            <a href="../../../reference/naming-conventions/" class="md-nav__link ">
               
   
   
@@ -1739,7 +1753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/casing-styles/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/casing-styles/" class="md-nav__link">
         
   
   
@@ -1764,7 +1778,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/annotations/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/annotations/" class="md-nav__link">
         
   
   
@@ -1787,7 +1801,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/apex_class/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/apex_class/" class="md-nav__link">
         
   
   
@@ -1810,7 +1824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/apex_constant/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/apex_constant/" class="md-nav__link">
         
   
   
@@ -1833,7 +1847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/apex_method/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/apex_method/" class="md-nav__link">
         
   
   
@@ -1856,7 +1870,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/apex_test_class/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/apex_test_class/" class="md-nav__link">
         
   
   
@@ -1879,7 +1893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/apex_test_method/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/apex_test_method/" class="md-nav__link">
         
   
   
@@ -1902,7 +1916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/apex_variable/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/apex_variable/" class="md-nav__link">
         
   
   
@@ -1925,7 +1939,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/approval_process/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/approval_process/" class="md-nav__link">
         
   
   
@@ -1948,7 +1962,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/approval_process_step/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/approval_process_step/" class="md-nav__link">
         
   
   
@@ -1971,7 +1985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/custom-fields/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/custom-fields/" class="md-nav__link">
         
   
   
@@ -1994,7 +2008,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/custom-objects/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/custom-objects/" class="md-nav__link">
         
   
   
@@ -2017,7 +2031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/flow/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/flow/" class="md-nav__link">
         
   
   
@@ -2040,7 +2054,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../reference/naming-conventions/flow_elements/" class="md-nav__link">
+      <a href="../../../reference/naming-conventions/flow_elements/" class="md-nav__link">
         
   
   
@@ -2075,8 +2089,6 @@
       
   
   
-    
-  
   
   
     
@@ -2094,15 +2106,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../../security/" class="md-nav__link ">
               
   
   
@@ -2121,7 +2133,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Security
@@ -2134,8 +2146,6 @@
                 
   
   
-    
-  
   
   
     
@@ -2149,15 +2159,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../../../security/access-control/" class="md-nav__link ">
               
   
   
@@ -2171,7 +2181,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5_2">
             <span class="md-nav__icon md-icon"></span>
             Access control
@@ -2213,7 +2223,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../audit-logging/" class="md-nav__link ">
+            <a href="../../../security/audit-logging/" class="md-nav__link ">
               
   
   
@@ -2278,7 +2288,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../tutorial/" class="md-nav__link ">
+            <a href="../../../tutorial/" class="md-nav__link ">
               
   
   
@@ -2313,7 +2323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tutorial/quickstart-setup-linting/" class="md-nav__link">
+      <a href="../../../tutorial/quickstart-setup-linting/" class="md-nav__link">
         
   
   
@@ -2389,7 +2399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../team-platforce/about/" class="md-nav__link">
+      <a href="../../../team-platforce/about/" class="md-nav__link">
         
   
   
@@ -2412,7 +2422,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../team-platforce/contact/" class="md-nav__link">
+      <a href="../../../team-platforce/contact/" class="md-nav__link">
         
   
   
@@ -2435,7 +2445,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../team-platforce/mission-statement/" class="md-nav__link">
+      <a href="../../../team-platforce/mission-statement/" class="md-nav__link">
         
   
   
@@ -2465,7 +2475,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../project-readme/" class="md-nav__link">
+      <a href="../../../project-readme/" class="md-nav__link">
         
   
   
@@ -2500,32 +2510,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#object-and-field-level-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      Object- and Field-Level Security
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#record-level-security" class="md-nav__link">
-    <span class="md-ellipsis">
-      Record-Level Security
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2540,7 +2524,7 @@
 
 
   
-    <a href="https://github.com/navikt/platforce-doc/edit/main/docs/security/access-control/index.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/navikt/platforce-doc/edit/main/docs/how-to-guides/Monorepo/addNewPackageToMonorepo.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -2548,17 +2532,77 @@
   
 
 
-<h1 id="access-control">Access Control<a class="headerlink" href="#access-control" title="Permanent link">&para;</a></h1>
-<p>We are using <a href="https://help.salesforce.com/s/articleView?id=sf.security_data_access.htm&amp;type=5">Salesforce data sharing</a> capabilties for access control in our Salesforce org.
-Profiles specify the license type and are not used for access control. A user can only have one profile. The profiles are represented in Identrutina, and users are assigned a profile using the standard Salesforce integration in Azure AD.
-Roles specify which area the user belongs to. The role is set by a trigger based on the Department field in the user record.</p>
-<h2 id="object-and-field-level-security">Object- and Field-Level Security<a class="headerlink" href="#object-and-field-level-security" title="Permanent link">&para;</a></h2>
-<p>Access to object and fields are granted through Permission Sets and Permission Set Groups. Permisson sets is configured by each teams and inccluded in their resepctive packages. Permission sets and Permission Set Groups that can't be a part of unlocked packages should be deployed through <a href="https://github.com/navikt/crm-platform-unpackaged">crm-platform-unpackaged</a>.</p>
-<p>Permission Set Group Specifies which objects and fields are standard within the product area. The user is assigned a permission set group using a trigger in Salesforce, based on Department, group membership, or profile.</p>
-<p>Permission Sets should be assigned to users through a Permission Set Group. A Permission Set should only be assigned for access needs that apply to a few specific groups of users, such as reports, courses, and quick texts. It must be set manually by an administrator.</p>
-<h2 id="record-level-security">Record-Level Security<a class="headerlink" href="#record-level-security" title="Permanent link">&para;</a></h2>
-<p>Record sharing is based on public groups. The user is automatically added to the group corresponding to the user's Department, which is set in a trigger in Salesforce.
-Special Access: Internal employees, code 6 and 7, are granted access via the Identity routine and synchronized to AD groups. The members of the AD groups must be synchronized to groups in Salesforce. Internal employees should have one AD group per area in Salesforce. For Code 6 and 7, AD groups is shared to all applications in NAV are used."</p>
+<h1 id="add-new-package-to-monorepo">Add new package to monorepo<a class="headerlink" href="#add-new-package-to-monorepo" title="Permanent link">&para;</a></h1>
+<p>This is a high level intro into how we do it in the Platforce monorepo, read the sfp docs in order to have the details.</p>
+<p>Create a new folder with and add the structure you want for the package.</p>
+<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Example project structure</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-0-10">10</a></span>
+<span class="normal"><a href="#__codelineno-0-11">11</a></span>
+<span class="normal"><a href="#__codelineno-0-12">12</a></span>
+<span class="normal"><a href="#__codelineno-0-13">13</a></span>
+<span class="normal"><a href="#__codelineno-0-14">14</a></span>
+<span class="normal"><a href="#__codelineno-0-15">15</a></span>
+<span class="normal"><a href="#__codelineno-0-16">16</a></span>
+<span class="normal"><a href="#__codelineno-0-17">17</a></span>
+<span class="normal"><a href="#__codelineno-0-18">18</a></span>
+<span class="normal"><a href="#__codelineno-0-19">19</a></span>
+<span class="normal"><a href="#__codelineno-0-20">20</a></span>
+<span class="normal"><a href="#__codelineno-0-21">21</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a>sf-platform/
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a>├── config/
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a>|   ├── poolMatrixdef.json
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a>|   ├── project-scratch-def.json  # Configuration file for defining scratch orgs
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a>|   ├── releaseconfig.yml
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a>│   └── sf-ci-platform-pool-def.json
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a>├── force-app/ (2)
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a>│   ├── default  # This folder is added to .gitignore, used for temporary files from scratch orgs
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a>│   │   └── main/
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a>│   │       ├── classes/
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a>│   │       └── ...  # Placeholder for other Salesforce metadata types
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a>│   ├── platform-data-model/ # Datamodel package
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13"></a>│   ├── platforce-admin/ # Toplevel package
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14"></a>│   ├── integration/
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15"></a>│   │   ├── my-integration-package A/  # Integration-specific package
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16"></a>│   │   └── my-integration-package B/  # Another integration package
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17"></a>│   └── utility/
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18"></a>│       ├── my-util-package A/  # Utility-specific package
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19"></a>│       └── my-util-package B/  # Another utility package
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20"></a>├── README.md  # Project documentation
+</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21"></a>└── sfdx-project.json  # Salesforce DX project configuration file
+</span></code></pre></div></td></tr></table></div>
+<p>Example of the structre within a package</p>
+<div class="language-text highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Example package structure</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-1-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-1-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-1-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-1-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-1-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-1-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-1-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-1-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-1-10">10</a></span>
+<span class="normal"><a href="#__codelineno-1-11">11</a></span>
+<span class="normal"><a href="#__codelineno-1-12">12</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a>my-package A/
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a>├── main/
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a>│   ├── classes/
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a>│   │   ├── MyClass.cls
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5"></a>│   │   └── AnotherClass.cls
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6"></a>│   └── ...
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7"></a>├── test/
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8"></a>│   ├── classes/
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9"></a>│   │   ├── MyClassTest.cls
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10"></a>│   │   └── AnotherClassTest.cls
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11"></a>│   └── ...
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12"></a>└── README.md
+</span></code></pre></div></td></tr></table></div>
+<p>Update the <code>sfdx-project.json</code> file with the new package. Refer to the sfp docs in order to view the different package types.</p>
 
 
 
@@ -2581,7 +2625,7 @@ Special Access: Internal employees, code 6 and 7, are granted access via the Ide
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="October 14, 2024 04:19:49 UTC"><span class="timeago" datetime="2024-10-14T04:19:49+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="October 14, 2024 04:19:49 UTC">2024-10-14</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 27, 2025 08:19:38 UTC"><span class="timeago" datetime="2025-06-27T08:19:38+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 27, 2025 08:19:38 UTC">2025-06-27</span>
   </span>
 
     
@@ -2591,7 +2635,7 @@ Special Access: Internal employees, code 6 and 7, are granted access via the Ide
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 26, 2024 05:37:03 UTC"><span class="timeago" datetime="2024-06-26T05:37:03+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 26, 2024 05:37:03 UTC">2024-06-26</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="June 27, 2025 08:19:38 UTC"><span class="timeago" datetime="2025-06-27T08:19:38+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="June 27, 2025 08:19:38 UTC">2025-06-27</span>
   </span>
 
     
@@ -2680,7 +2724,7 @@ Special Access: Internal employees, code 6 and 7, are granted access via the Ide
         <nav class="md-footer__inner md-grid" aria-label="Footer" >
           
             
-            <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Security">
+            <a href="../../setUpSlackAlert/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Set up a Slack alert rule">
               <div class="md-footer__button md-icon">
                 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2690,20 +2734,20 @@ Special Access: Internal employees, code 6 and 7, are granted access via the Ide
                   Previous
                 </span>
                 <div class="md-ellipsis">
-                  Security
+                  Set up a Slack alert rule
                 </div>
               </div>
             </a>
           
           
             
-            <a href="../audit-logging/" class="md-footer__link md-footer__link--next" aria-label="Next: Audit Logging">
+            <a href="../../dev-environment/install-package-manager/" class="md-footer__link md-footer__link--next" aria-label="Next: Install Package Manager">
               <div class="md-footer__title">
                 <span class="md-footer__direction">
                   Next
                 </span>
                 <div class="md-ellipsis">
-                  Audit Logging
+                  Install Package Manager
                 </div>
               </div>
               <div class="md-footer__button md-icon">
@@ -2845,16 +2889,16 @@ Special Access: Internal employees, code 6 and 7, are granted access via the Ide
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["content.action.edit", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.top", "navigation.path", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["content.action.edit", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.top", "navigation.path", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
-        <script src="../../js/timeago.min.js"></script>
+        <script src="../../../js/timeago.min.js"></script>
       
-        <script src="../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../javascript/amplitude_events.js"></script>
+        <script src="../../../javascript/amplitude_events.js"></script>
       
     
   </body>
