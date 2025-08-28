@@ -12,7 +12,7 @@ mkdocs = "^1.5.3"
 pymdown-extensions = "^10.16"
 mkdocs-material = "^9.6.17"
 mkdocs-git-revision-date-localized-plugin = "^1.4.7"
-mkdocs-awesome-pages-plugin = "^2.10.1"
+mkdocs-awesome-nav = "^3.1.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

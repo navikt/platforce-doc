@@ -97,7 +97,7 @@ extra_javascript:
 
 # Plugins
 plugins:
-  - awesome-pages
+  - awesome-nav
   - search:
       lang: en
   - git-revision-date-localized:

@@ -12,4 +12,4 @@ nav:
   - install-vscode.md
   - install-platforce-extension.md
   - install-dev-dependencies.md
-  - ...
+  - "*"
