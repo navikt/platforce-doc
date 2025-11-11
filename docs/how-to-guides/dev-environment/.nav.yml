@@ -1,9 +1,9 @@
 title: Development Environment
 nav:
   - install-package-manager.md
-  - install-git.md
   - install-homebrew.md
   - install-scoop.md
+  - install-git.md
   - install-java.md
   - install-nodejs.md
   - install-nvm.md

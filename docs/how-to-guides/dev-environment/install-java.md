@@ -18,7 +18,7 @@ How to install Java on your computer.
 
     ```PowerShell
     scoop bucket add java
-    scoop install temurin17-jdk
+    scoop install temurin21-jdk
     ```
 
 === "macOS"
