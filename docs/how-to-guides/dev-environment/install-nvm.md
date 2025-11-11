@@ -24,7 +24,11 @@ How to install Node Version Manager on your macOS computer.
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh
     ```
 
+Install the latest lts version of Node.js using NVM:
 
+```bash
+nvm install --lts
+```
 
 ### Resources
 
