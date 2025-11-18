@@ -12,12 +12,12 @@ How to install NodeJS on your computer.
 
     - [Homebrew](install-homebrew.md)
 
-## Installation
+## Installation without NVM
 
 === "Windows"
 
     ```PowerShell
-    scoop install scoop install nodejs-lts
+    scoop install nodejs-lts
     ```
 
 === "macOS"
@@ -26,9 +26,9 @@ How to install NodeJS on your computer.
     brew install node
     ```
 
-### Advanced Installation
+### Installation with NVM
 
-#### Additional Prerequisites
+#### Prerequisites
 
 - [Node Version Manager (NVM)](install-nvm.md)
 
