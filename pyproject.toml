@@ -9,10 +9,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 mkdocs = "^1.5.3"
-pymdown-extensions = "^10.17"
-mkdocs-material = "^9.7.0"
-mkdocs-git-revision-date-localized-plugin = "^1.5.0"
-mkdocs-awesome-nav = "^3.2.0"
+pymdown-extensions = "^10.21"
+mkdocs-material = "^9.7.1"
+mkdocs-git-revision-date-localized-plugin = "^1.5.1"
+mkdocs-awesome-nav = "^3.3.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
