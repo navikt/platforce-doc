@@ -13,7 +13,6 @@ Recommended order of installation:
 3. [Install java JDK](install-java-jdk.md)
 4. [Install NVM](install-nvm.md)
 5. [Install Salesforce CLI](install-salesforce-cli.md)
-6. [Install Flxbl SFP](install-flxbl-sfp.md)
 7. [Install vscode](install-vscode.md)
 8. Install salesforce extensions for vscode
 9. [Install Dev Dependencies](install-dev-dependencies.md)

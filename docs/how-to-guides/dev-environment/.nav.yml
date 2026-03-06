@@ -8,7 +8,6 @@ nav:
   - install-nodejs.md
   - install-nvm.md
   - install-salesforce-cli.md
-  - install-flxbl-sfp.md
   - install-vscode.md
   - install-platforce-extension.md
   - install-dev-dependencies.md
