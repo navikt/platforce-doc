@@ -9,5 +9,5 @@ How to install dev dependencied in your project
 ## Installation
 
 ```bash
-npm install
+npm install --before="$(date -v -1d)"
 ```

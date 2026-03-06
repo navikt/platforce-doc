@@ -39,6 +39,7 @@ How to install NodeJS on your computer.
     ```PowerShell
     nvm install --lts
     nvm use --lts
+    npm config set ignore-scripts true --global
     ```
 
 === "macOS"
@@ -46,6 +47,7 @@ How to install NodeJS on your computer.
     ```bash
     nvm install --lts
     nvm use --lts
+    npm config set ignore-scripts true --global
     ```
 
 ### Resources
