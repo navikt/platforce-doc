@@ -12,31 +12,31 @@
         <meta name="author" content="Nav Team Platforce">
       
       
-        <link rel="canonical" href="https://platforce.github.io/docs/how-to-guides/dev-environment/install-platforce-extension/">
+        <link rel="canonical" href="https://platforce.github.io/docs/explanation/eca-authentication/">
       
       
-        <link rel="prev" href="../install-vscode/">
+        <link rel="prev" href="../..">
       
       
-        <link rel="next" href="../install-dev-dependencies/">
+        <link rel="next" href="../">
       
       
         
       
       
-      <link rel="icon" href="../../../assets/platforce_logo.png">
+      <link rel="icon" href="../../assets/platforce_logo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Install Platforce Salesforce Extension Pack - Platforce Docs</title>
+        <title>External Client Apps Authentication - Platforce Docs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -55,13 +55,13 @@
       
     
     
-      <link rel="stylesheet" href="../../../css/timeago.css">
+      <link rel="stylesheet" href="../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-      <link rel="stylesheet" href="../../../stylesheets/uu.css">
+      <link rel="stylesheet" href="../../stylesheets/uu.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -105,7 +105,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#install-platforce-salesforce-extension-pack" class="md-skip">
+        <a href="#external-client-apps-authentication" class="md-skip">
           Skip to content
         </a>
       
@@ -121,9 +121,9 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Platforce Docs" class="md-header__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
+    <a href="../.." title="Platforce Docs" class="md-header__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
       
-  <img src="../../../assets/platforce_logo.png" alt="logo">
+  <img src="../../assets/platforce_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -140,7 +140,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Install Platforce Salesforce Extension Pack
+              External Client Apps Authentication
             
           </span>
         </div>
@@ -273,9 +273,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Platforce Docs" class="md-nav__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
+    <a href="../.." title="Platforce Docs" class="md-nav__button md-logo" aria-label="Platforce Docs" data-md-component="logo">
       
-  <img src="../../../assets/platforce_logo.png" alt="logo">
+  <img src="../../assets/platforce_logo.png" alt="logo">
 
     </a>
     Platforce Docs
@@ -302,7 +302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -326,6 +326,8 @@
       
   
   
+    
+  
   
   
     
@@ -343,15 +345,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../explanation/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -375,7 +377,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -390,10 +392,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../explanation/eca-authentication/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    External Client Apps Authentication
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -409,6 +438,48 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flow
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -423,7 +494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../explanation/saas-proxy/" class="md-nav__link">
+      <a href="../saas-proxy/" class="md-nav__link">
         
   
   
@@ -455,8 +526,6 @@
       
   
   
-    
-  
   
   
     
@@ -486,15 +555,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../" class="md-nav__link ">
+            <a href="../../how-to-guides/" class="md-nav__link ">
               
   
   
@@ -518,7 +587,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -536,7 +605,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../createDXUser/" class="md-nav__link">
+      <a href="../../how-to-guides/createDXUser/" class="md-nav__link">
         
   
   
@@ -564,7 +633,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../exposeFssAppToSalesforce/" class="md-nav__link">
+      <a href="../../how-to-guides/exposeFssAppToSalesforce/" class="md-nav__link">
         
   
   
@@ -592,7 +661,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getOrgFromScratchPool/" class="md-nav__link">
+      <a href="../../how-to-guides/getOrgFromScratchPool/" class="md-nav__link">
         
   
   
@@ -622,7 +691,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../postApplicationLogToSlack/" class="md-nav__link">
+      <a href="../../how-to-guides/postApplicationLogToSlack/" class="md-nav__link">
         
   
   
@@ -650,7 +719,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../setUpNamedCredential/" class="md-nav__link">
+      <a href="../../how-to-guides/setUpNamedCredential/" class="md-nav__link">
         
   
   
@@ -678,7 +747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../setUpSlackAlert/" class="md-nav__link">
+      <a href="../../how-to-guides/setUpSlackAlert/" class="md-nav__link">
         
   
   
@@ -703,8 +772,6 @@
                 
   
   
-    
-  
   
   
     
@@ -742,15 +809,15 @@
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_8" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
+            <a href="../../how-to-guides/dev-environment/" class="md-nav__link ">
               
   
   
@@ -774,7 +841,7 @@
             
           </div>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_8">
             <span class="md-nav__icon md-icon"></span>
             
@@ -792,7 +859,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-package-manager/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-package-manager/" class="md-nav__link">
         
   
   
@@ -820,7 +887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-homebrew/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-homebrew/" class="md-nav__link">
         
   
   
@@ -848,7 +915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-scoop/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-scoop/" class="md-nav__link">
         
   
   
@@ -876,7 +943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-git/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-git/" class="md-nav__link">
         
   
   
@@ -904,7 +971,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-java/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-java/" class="md-nav__link">
         
   
   
@@ -932,7 +999,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-nodejs/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-nodejs/" class="md-nav__link">
         
   
   
@@ -960,7 +1027,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-nvm/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-nvm/" class="md-nav__link">
         
   
   
@@ -988,7 +1055,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-salesforce-cli/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-salesforce-cli/" class="md-nav__link">
         
   
   
@@ -1016,7 +1083,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-vscode/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-vscode/" class="md-nav__link">
         
   
   
@@ -1041,37 +1108,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Install Platforce Salesforce Extension Pack
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../how-to-guides/dev-environment/install-platforce-extension/" class="md-nav__link">
         
   
   
@@ -1087,76 +1127,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Prerequisites
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Installation
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#alternative-installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Alternative Installation
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Resources
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1169,7 +1139,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../install-dev-dependencies/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/install-dev-dependencies/" class="md-nav__link">
         
   
   
@@ -1199,7 +1169,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../recommended-names-and-aliases/" class="md-nav__link">
+      <a href="../../how-to-guides/dev-environment/recommended-names-and-aliases/" class="md-nav__link">
         
   
   
@@ -1286,7 +1256,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Monorepo/addNewPackageToMonorepo/" class="md-nav__link">
+      <a href="../../how-to-guides/Monorepo/addNewPackageToMonorepo/" class="md-nav__link">
         
   
   
@@ -1367,7 +1337,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../reference/" class="md-nav__link ">
+            <a href="../../reference/" class="md-nav__link ">
               
   
   
@@ -1409,7 +1379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/abbreviation/" class="md-nav__link">
+      <a href="../../reference/abbreviation/" class="md-nav__link">
         
   
   
@@ -1437,7 +1407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/acronyms/" class="md-nav__link">
+      <a href="../../reference/acronyms/" class="md-nav__link">
         
   
   
@@ -1467,7 +1437,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/lightningPageRecords/" class="md-nav__link">
+      <a href="../../reference/lightningPageRecords/" class="md-nav__link">
         
   
   
@@ -1495,7 +1465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/names-and-aliases/" class="md-nav__link">
+      <a href="../../reference/names-and-aliases/" class="md-nav__link">
         
   
   
@@ -1523,7 +1493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/scratchPools/" class="md-nav__link">
+      <a href="../../reference/scratchPools/" class="md-nav__link">
         
   
   
@@ -1569,7 +1539,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../reference/experience-cloud/" class="md-nav__link ">
+            <a href="../../reference/experience-cloud/" class="md-nav__link ">
               
   
   
@@ -1636,7 +1606,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../reference/git-workflows/" class="md-nav__link ">
+            <a href="../../reference/git-workflows/" class="md-nav__link ">
               
   
   
@@ -1678,7 +1648,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/git-workflows/githubActions/" class="md-nav__link">
+      <a href="../../reference/git-workflows/githubActions/" class="md-nav__link">
         
   
   
@@ -1742,7 +1712,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../reference/linting/" class="md-nav__link ">
+            <a href="../../reference/linting/" class="md-nav__link ">
               
   
   
@@ -1784,7 +1754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/linting/eslint/" class="md-nav__link">
+      <a href="../../reference/linting/eslint/" class="md-nav__link">
         
   
   
@@ -1812,7 +1782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/linting/git-hooks/" class="md-nav__link">
+      <a href="../../reference/linting/git-hooks/" class="md-nav__link">
         
   
   
@@ -1842,7 +1812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/linting/prettier/" class="md-nav__link">
+      <a href="../../reference/linting/prettier/" class="md-nav__link">
         
   
   
@@ -1890,7 +1860,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../reference/linting/salesforce-code-analyzer/" class="md-nav__link ">
+            <a href="../../reference/linting/salesforce-code-analyzer/" class="md-nav__link ">
               
   
   
@@ -1934,7 +1904,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/linting/salesforce-code-analyzer/custom-rules/" class="md-nav__link">
+      <a href="../../reference/linting/salesforce-code-analyzer/custom-rules/" class="md-nav__link">
         
   
   
@@ -1998,7 +1968,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../reference/logging/" class="md-nav__link ">
+            <a href="../../reference/logging/" class="md-nav__link ">
               
   
   
@@ -2040,7 +2010,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/logging/crm-plattform-alerts-app/" class="md-nav__link">
+      <a href="../../reference/logging/crm-plattform-alerts-app/" class="md-nav__link">
         
   
   
@@ -2124,7 +2094,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../reference/naming-conventions/" class="md-nav__link ">
+            <a href="../../reference/naming-conventions/" class="md-nav__link ">
               
   
   
@@ -2166,7 +2136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/casing-styles/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/casing-styles/" class="md-nav__link">
         
   
   
@@ -2194,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/annotations/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/annotations/" class="md-nav__link">
         
   
   
@@ -2222,7 +2192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/apex_class/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_class/" class="md-nav__link">
         
   
   
@@ -2250,7 +2220,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/apex_constant/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_constant/" class="md-nav__link">
         
   
   
@@ -2278,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/apex_method/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_method/" class="md-nav__link">
         
   
   
@@ -2306,7 +2276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/apex_test_class/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_test_class/" class="md-nav__link">
         
   
   
@@ -2334,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/apex_test_method/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_test_method/" class="md-nav__link">
         
   
   
@@ -2362,7 +2332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/apex_variable/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/apex_variable/" class="md-nav__link">
         
   
   
@@ -2390,7 +2360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/approval_process/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/approval_process/" class="md-nav__link">
         
   
   
@@ -2418,7 +2388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/approval_process_step/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/approval_process_step/" class="md-nav__link">
         
   
   
@@ -2446,7 +2416,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/custom-fields/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/custom-fields/" class="md-nav__link">
         
   
   
@@ -2474,7 +2444,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/custom-objects/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/custom-objects/" class="md-nav__link">
         
   
   
@@ -2502,7 +2472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/flow/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/flow/" class="md-nav__link">
         
   
   
@@ -2530,7 +2500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../reference/naming-conventions/flow_elements/" class="md-nav__link">
+      <a href="../../reference/naming-conventions/flow_elements/" class="md-nav__link">
         
   
   
@@ -2599,7 +2569,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../security/" class="md-nav__link ">
+            <a href="../../security/" class="md-nav__link ">
               
   
   
@@ -2661,7 +2631,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../security/access-control/" class="md-nav__link ">
+            <a href="../../security/access-control/" class="md-nav__link ">
               
   
   
@@ -2726,7 +2696,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../security/ad-group-synchronization/" class="md-nav__link ">
+            <a href="../../security/ad-group-synchronization/" class="md-nav__link ">
               
   
   
@@ -2791,7 +2761,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../security/audit-logging/" class="md-nav__link ">
+            <a href="../../security/audit-logging/" class="md-nav__link ">
               
   
   
@@ -2865,7 +2835,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../tutorial/" class="md-nav__link ">
+            <a href="../../tutorial/" class="md-nav__link ">
               
   
   
@@ -2909,7 +2879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tutorial/quickstart-setup-linting/" class="md-nav__link">
+      <a href="../../tutorial/quickstart-setup-linting/" class="md-nav__link">
         
   
   
@@ -2999,7 +2969,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../team-platforce/about/" class="md-nav__link">
+      <a href="../../team-platforce/about/" class="md-nav__link">
         
   
   
@@ -3027,7 +2997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../team-platforce/contact/" class="md-nav__link">
+      <a href="../../team-platforce/contact/" class="md-nav__link">
         
   
   
@@ -3055,7 +3025,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../team-platforce/mission-statement/" class="md-nav__link">
+      <a href="../../team-platforce/mission-statement/" class="md-nav__link">
         
   
   
@@ -3090,7 +3060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../project-readme/" class="md-nav__link">
+      <a href="../../project-readme/" class="md-nav__link">
         
   
   
@@ -3137,10 +3107,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+  <a href="#flow" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prerequisites
+        Flow
       
     </span>
   </a>
@@ -3148,41 +3118,13 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#usage" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
+        Usage
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#alternative-installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Alternative Installation
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Resources
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -3211,7 +3153,7 @@
   
   
     <li class="md-path__item">
-      <a href="../../.." class="md-path__link">
+      <a href="../.." class="md-path__link">
         
   <span class="md-ellipsis">
     Home
@@ -3229,28 +3171,10 @@
     
     
       <li class="md-path__item">
-        <a href="../../createDXUser/" class="md-path__link">
+        <a href="./" class="md-path__link">
           
   <span class="md-ellipsis">
-    How-to Guides
-  </span>
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-    
-    
-      <li class="md-path__item">
-        <a href="../install-package-manager/" class="md-path__link">
-          
-  <span class="md-ellipsis">
-    Development Environment
+    Explanations
   </span>
 
         </a>
@@ -3269,7 +3193,7 @@
 
 
   
-    <a href="https://github.com/navikt/platforce-doc/edit/main/docs/how-to-guides/dev-environment/install-platforce-extension.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/navikt/platforce-doc/edit/main/docs/explanation/eca-authentication.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -3277,63 +3201,26 @@
   
 
 
-<h1 id="install-platforce-salesforce-extension-pack">Install Platforce Salesforce Extension Pack<a class="headerlink" href="#install-platforce-salesforce-extension-pack" title="Permanent link">&para;</a></h1>
-<p>How to install Platforce Salesforce Extension Pack for your Visual Studio Code.</p>
-<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Windows</label><label for="__tabbed_1_2">macOS</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<ul>
-<li><a href="../install-vscode/">Visual Studio Code</a></li>
-</ul>
-</div>
-<div class="tabbed-block">
-<ul>
-<li><a href="../install-vscode/">Visual Studio Code</a></li>
-</ul>
-</div>
-</div>
-</div>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Windows</label><label for="__tabbed_2_2">macOS</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="language-PowerShell highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">PowerShell</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
-<span class="normal"><a href="#__codelineno-0-2">2</a></span>
-<span class="normal"><a href="#__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nb">Invoke-WebRequest</span> <span class="s1">&#39;https://github.com/navikt/platforce-sf-ext-pack/releases/download/1.0.0/platforce-sf-ext-pack-1.0.0.vsix&#39;</span> <span class="n">-OutFile</span> <span class="s1">&#39;platforce-sf-ext-pack.vsix&#39;</span><span class="p">;</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="n">code</span> <span class="p">-</span><span class="n">-install-extension</span> <span class="n">platforce-sf-ext-pack</span><span class="p">.</span><span class="n">vsix</span><span class="p">;</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="nb">Remove-Item</span> <span class="n">-Path</span> <span class="s1">&#39;platforce-sf-ext-pack.vsix&#39;</span>
-</span></code></pre></div></td></tr></table></div>
-</div>
-<div class="tabbed-block">
-<div class="language-bash highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Bash</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
-<span class="normal"><a href="#__codelineno-1-2">2</a></span>
-<span class="normal"><a href="#__codelineno-1-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1"></a>curl<span class="w"> </span>--location<span class="w"> </span><span class="s1">&#39;https://github.com/navikt/platforce-sf-ext-pack/releases/download/1.0.0/platforce-sf-ext-pack-1.0.0.vsix&#39;</span><span class="w"> </span>--output<span class="w"> </span><span class="s1">&#39;platforce-sf-ext-pack.vsix&#39;</span><span class="w"> </span><span class="o">&amp;&amp;</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2"></a>code<span class="w"> </span>--install-extension<span class="w"> </span>platforce-sf-ext-pack.vsix<span class="w"> </span><span class="o">&amp;&amp;</span>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3"></a>rm<span class="w"> </span>platforce-sf-ext-pack.vsix
-</span></code></pre></div></td></tr></table></div>
-</div>
-</div>
-</div>
-<h3 id="alternative-installation">Alternative Installation<a class="headerlink" href="#alternative-installation" title="Permanent link">&para;</a></h3>
-<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Windows</label><label for="__tabbed_3_2">macOS</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<ul>
-<li>TODO: Add steps and images</li>
-</ul>
-</div>
-<div class="tabbed-block">
-<ul>
-<li>TODO: Ateps and images</li>
-</ul>
-</div>
-</div>
-</div>
-<h3 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="https://github.com/navikt/platforce-sf-ext-pack/releases/latest">Platforce Salesforce Extension Pack</a></li>
-</ul>
+<h1 id="external-client-apps-authentication">External Client Apps Authentication<a class="headerlink" href="#external-client-apps-authentication" title="Permanent link">&para;</a></h1>
+<p>External Client Apps (ECA) with JWT Bearer authentication is the primary pattern for machine-to-machine communication from NAIS applications to Salesforce.</p>
+<p>Applications authenticate using a signed JWT assertion generated from a private key stored as a NAIS secret. Salesforce validates the signature using a public certificate configured on the External Client App and returns an access token that can be used against Salesforce APIs.</p>
+<p>JWT certificates are generated and managed using sf-keytool.</p>
+<h2 id="flow">Flow<a class="headerlink" href="#flow" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>sequenceDiagram
+participant App as NAIS Application
+participant Secret as NAIS Secret
+participant SF as Salesforce
+participant ECA as External Client App
+participant User as Integration User
+
+    App-&gt;&gt;Secret: Read private key
+    App-&gt;&gt;SF: Send signed JWT assertion
+    SF-&gt;&gt;ECA: Validate certificate
+    ECA-&gt;&gt;User: Verify app access
+    SF--&gt;&gt;App: Return access token
+    App-&gt;&gt;SF: Call Salesforce APIs</code></pre>
+<h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
+<p>See the <a href="https://github.com/navikt/sf-keytool">sf-keytool GitHub repository</a> for setup and certificate management details.</p>
 
 
 
@@ -3356,7 +3243,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="March 21, 2024 12:44:26 UTC"><span class="timeago" datetime="2024-03-21T12:44:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="March 21, 2024 12:44:26 UTC">2024-03-21</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="May 27, 2026 13:04:34 UTC"><span class="timeago" datetime="2026-05-27T13:04:34+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="May 27, 2026 13:04:34 UTC">2026-05-27</span>
   </span>
 
     
@@ -3366,7 +3253,7 @@
     <span class="md-icon" title="Created">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="March 21, 2024 12:44:26 UTC"><span class="timeago" datetime="2024-03-21T12:44:26+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="March 21, 2024 12:44:26 UTC">2024-03-21</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="May 27, 2026 13:04:34 UTC"><span class="timeago" datetime="2026-05-27T13:04:34+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="May 27, 2026 13:04:34 UTC">2026-05-27</span>
   </span>
 
     
@@ -3455,7 +3342,7 @@
         <nav class="md-footer__inner md-grid" aria-label="Footer" >
           
             
-            <a href="../install-vscode/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Install VS Code">
+            <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
               <div class="md-footer__button md-icon">
                 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -3465,20 +3352,20 @@
                   Previous
                 </span>
                 <div class="md-ellipsis">
-                  Install VS Code
+                  Home
                 </div>
               </div>
             </a>
           
           
             
-            <a href="../install-dev-dependencies/" class="md-footer__link md-footer__link--next" aria-label="Next: Install Dev Dependencies">
+            <a href="../" class="md-footer__link md-footer__link--next" aria-label="Next: Explanations">
               <div class="md-footer__title">
                 <span class="md-footer__direction">
                   Next
                 </span>
                 <div class="md-ellipsis">
-                  Install Dev Dependencies
+                  Explanations
                 </div>
               </div>
               <div class="md-footer__button md-icon">
@@ -3622,16 +3509,16 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["content.action.edit", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.top", "navigation.path", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.action.edit", "content.code.copy", "content.code.annotate", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.instant", "navigation.instant.progress", "navigation.indexes", "navigation.top", "navigation.path", "search.suggest", "search.share", "search.highlight", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
-        <script src="../../../js/timeago.min.js"></script>
+        <script src="../../js/timeago.min.js"></script>
       
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../javascript/amplitude_events.js"></script>
+        <script src="../../javascript/amplitude_events.js"></script>
       
     
   </body>
