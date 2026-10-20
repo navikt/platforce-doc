@@ -4,7 +4,7 @@ External Client Apps (ECA) with JWT Bearer authentication is the primary pattern
 
 Applications authenticate using a signed JWT assertion generated from a private key stored as a NAIS secret. Salesforce validates the signature using a public certificate configured on the External Client App and returns an access token that can be used against Salesforce APIs.
 
-JWT certificates are generated and managed using sf-keytool.
+JWT certificates are generated and managed using sf-keytool (currently only available for members of team Platforce).
 
 ## Flow
 
